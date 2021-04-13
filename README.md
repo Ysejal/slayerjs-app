@@ -2,8 +2,6 @@
 
 SlayerJS est un jeu 1 joueurs/multijoueurs, rogue-like, basé sur des decks, à niveau d'echelle inspiré du jeu "Slay the Spire"
 
-# Week 1
-
 ## Game design/Lore SlayerJS
 
 ### Histoire
@@ -445,7 +443,7 @@ ennemis : humains
 
 ennemis : nains
 Armes : hache
-Particula
+Particularités : plus forts, moins de Pv
 
 Boss: Motsognir
 
@@ -637,7 +635,7 @@ Description : Invoque les Walkyries et charge violemment vers tout les ennemis
 
 Malédiction d'Andvari : 
 Condition : "Rage Magique" + "Incantation Anhilatrice"
-Type : 
+Type : Attaque magique
 Energie : 
 Attaque : 
 Description : 
@@ -684,18 +682,15 @@ Energie : 7
 Attaque : 12
 Description : Se met proche de l'ennemi et envoie des projectiles empoisonné sur tout les ennemis. Empoisonne la cible principal et peut empoisonné les autres. Le temps de l'empoisonnement Chaque attaque physique infliera des coups critique.
 
+##### Carte Defense.
 
 
+##### Carte Deck
 
 
+##### Carte Effet
 
-
-#### personnages principaux
-
-Voire personnage principaux.
-
-#### ennemis
-
+##### Carte Buff/Nerf
 
 ### Modalité de combat
 
@@ -743,12 +738,7 @@ Nous avons utilisé le package create-new-app dans npm pour concevoir l'environn
 
 ## Conception de l'architecture de l'application.
 
-
-
-
-
 ## Sources
-
 
 https://greensock.com/gsap/ : Greensock est une bibliothèque d'animation en Javascript qui va nous permettre de gerer le coter "Jeux video" de manière plus poussive
 
