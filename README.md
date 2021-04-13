@@ -444,6 +444,10 @@ ennemis : humains
 ##### Nivadellir : 
 
 ennemis : nains
+Armes : hache
+Particula
+
+Boss: Motsognir
 
 ##### Jotunheim : 
 
@@ -628,7 +632,7 @@ Condition : 3 cartes attaques quelconque.
 Type : Attaque physique.
 Energie : 7
 Attaque : 12
-Description : A 
+Description : Invoque les Walkyries et charge violemment vers tout les ennemis
 
 
 Malédiction d'Andvari : 
