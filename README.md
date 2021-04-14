@@ -419,9 +419,87 @@ Defense + effet : defense sur le caster + application de l'effet lors d'une atta
 #### Bas:
 
 ##### Svartaflheim : 
-ennemis : elfes noirs, armes : Arcs, ?magie noir?
-caractéristiques : plus rapides, moins de pv
 
+###### Elfes noirs
+
+Monstres faible.
+
+Des elfes sombres possédent des capacités de magie noire. Les elfes ont une vitesse elevé, mais ont peu de points de vie. Leur coefficient de défense est faible, mais leur chance de coups critique est plus elevé.
+
+Armes : Arcs courbé
+
+Attaque :  
+
+flèche demoniaque : envoie une flèche sur un ennemi  
+
+Vague noir : Propulse un boule d'energie sombre. Peut rendre confus  
+
+###### Feufollet démoniaque :
+
+Monstres faible.
+
+Des ames en forme de flammes qui errent dans le svartaflheim.
+
+Armes : Aucune
+
+Attaque :  
+
+Feufollet : Crache une flamme sombre sur les ennemis.  
+
+Malice : attaque aléatoirement les ennemis. Baisse le coefficient de défense de la cible, peut rendre confus.
+
+###### Nains démoniaque
+
+Monstres faible
+
+Nains déchu de Nidavellir qui travail pour la forge maudite. Les nains ont beaucoup de points de vie et un haut coefficient de défense. Il est peu rapide mais possède un bouclier initial de 3 points.
+
+
+Armes : Marteau
+
+Attaque:  
+
+Brise-mur : Fracasse l'ennemi avec un coup de marteau. Peut rendre confus. Si la cible est confuse le lanceur récupère des points de vie.
+
+Remontant sombre : Récupère des points de vie via un breuvage mysterieux. Peut enchanter l'arme du lanceur.
+
+###### Fenrir
+
+Monstres moyen
+
+Gardien du royaume: Loup surpuissant. Possède un coefficient d'attaque et une vitesse elevé. Meilleur chance de coup critique. Coefficient de défense normal.
+
+Armes : Aucune
+
+Attaque :   
+
+Assaut du gardien : Fenrir charge vers son ennemi infligeant des dégats elevé. Peut rendre confus fenrir et sa cible. Si fenrir est confus son coefficient d'attaque augmente.  
+
+Brise-Morsure:  Morsure qui passe à travers un bouclier inférieur à 6 points. Peut rendre confus et empoisonner.  
+
+Meute Enragé:Appelle la meute de loup de Fenrir à son secours.  
+
+Appel Démoniaque: Fenrir sacrifie ses loups pour augmente toutes ses statistiques. Fenrir devient insensible aux effets et tout ses coups rendent confus.  
+
+###### Freyr (mode Démon)
+
+Dieu des elfes Lumineux, Freyr contrôle également Svartflheim. Dieu de la prospérité et de l'abondance il peut egalement provoquer la faillite et la famine.
+
+Armes : Epée Magique de Freyr
+
+Capacité : (Des cartes ou pas ?)
+
+Torrent de Freyr : Invoque un typhon géant avec son épée attaquant tout les ennemis. Baisse le coefficient de défense des ennemis.
+
+Briseur Temporelle : L'épée de Freyr brise le vent et attaque tout les ennemis avec 2 attaques successives. Augmente les chances de coups critique de Freyr. Si Freyr fait un coup critique il relance une attaque Succesives (maximum 5). Peut faire baisser la vitesse des ennemis.
+
+Armée démoniaque : Invoque trois elfes démoniaque. Quand un des elfes meurt Freyr augmente toute ses statistiques
+
+Vortex du Vide : Mets le coefficient déffensif de la cible à 0 pendant 2-3 tour. La cible ne peut plus avoir de bouclier. 
+
+Domptage Démoniaque : Freyr invoque Fenrir. Si fenrir meurt freyr récupère ses capacités.
+
+Ragnarok : Freyr détruit le terrain et inflige des dégats à tout les ennemis, Brule et rend confus les ennemis. Draine des points de vie à tout les ennemis.
 
 ##### Muspellheim : 
 Ymir?
@@ -433,11 +511,49 @@ royaume des morts : ennemis-> morts-vivants ou âmes
 
 Boss: Déesse Hel
 
+###### Hel
+
+Déese de la mort : Visage mi tenebreux mi lumineux.
+
+Armes : Aucune
+
+Capacité : 
+
+Baiser de la mort : Hel passe derrière sa cible et lui tranche le dos avec son couteau. Fait saigner et fait baisser la vitesse et les chances de coups critique de la cible.
+
+Réincarnation : Invoque des fantomes/zombies Quelle peut sacrifié pour récupérer des points de vie avec "Echange équivalent"
+
+Echange equivalent : sacrifie une unité alliée pour récupérer des points de vie.
+
+Appel de la mort : Envoie une vague de fontomes/zombies errant sur tout les ennemis Plus le nombre d'unités alliée est grand plus "Appel de la mort" fait des dégats.
+
+Héros déchu : Récupère l'ame de la cible et en invoque une unité allié avec cette dernière. (l'unité invoqué est moins forte que la cible mais possèdent toutes les capacité personnelles de la cible)
+
+Valhalla maudit : Invoque 3 des 4 personnages Principaux à ses côtés.
+
+Peste : Envoie la peste sur tous les ennemis. Rend maudit et confus et empoisonne tout les ennemis. Baisse la vitesse et la chance de coups critique à 0.
+
+
+
 #### Milieu:
 
 ##### Midgard : 
 
 ennemis : humains
+
+###### Jormungand
+
+Serpent entourant le monde des humains. Protecteur de Midgard. 
+
+Séisme : Fait trembler la terre et touche tout les ennemis : Peut rendre confus
+
+Tsunami : Provoque une vague enorme qui touche tout les ennemis : Baisse la défense
+
+Morsure infinie : aggripe un ennemi et le mords puissamenet : Empoisonne la cible
+
+Lacération Terrestre : Attrape les ennemis et les etrangle totalement : Brise le bouclier et baisse le coefficient de défense et baisse la vitesse.
+
+Pluie Empoisonné : Envoie son poison sur tout les ennemis : Empoisonne et rend vulnérable tout les ennemis.
 
 ##### Nivadellir : 
 
@@ -446,6 +562,26 @@ Armes : hache
 Particularités : plus forts, moins de Pv
 
 Boss: Motsognir
+
+###### Motsognir
+
+Roi de nains. Vaillant et Courageux il protège le monde des Nains
+
+Armes : Marteau + Arme forger
+
+Capacité : 
+
+Lancer de marteau :  Lance son marteau sur un ennemi : Peut rendre confus et paralyser. Si lancer de marteau inflige un coup critique : Motsognir gagne 5 points de bouclier.
+
+Solidification : Augmente le coefficient de défense + Prend 10 de bouclier. (Passif) Si l'ennemi brise le bouclier Le coefficient de défense de Motsognir augmente.
+
+Bouclier ultime : Renvoie toute les attaques physique de l'ennemi pendant 3 tour. et prend 20 de bouclier.
+
+Forgeage : Construit une nouvelle arme aléatoire. Arme qui augmentera les statistique de Motsognir
+
+Choc Primordial : Motsognir frappe la terre avec son marteau et attaque tout les ennemis. Le coup critique sera augmenté.
+
+
 
 ##### Jotunheim : 
 
@@ -456,7 +592,28 @@ ennemis : géants
 
 ##### Ljosalfheim : 
 
-Elfes blancs
+
+###### Freyr (mode Ange)
+
+Dieu des elfes Lumineux. Dieu de la prospérité et de l'abondance.
+
+Armes : Epée Magique de Freyr
+
+Capacité : (Des cartes ou pas ?)
+
+Torrent de Freyr : Invoque un typhon géant avec son épée attaquant tout les ennemis. Baisse le coefficient de défense des ennemis.
+
+Briseur Temporelle : L'épée de Freyr brise le vent et attaque tout les ennemis avec 2 attaques successives. Augmente les chances de coups critique de Freyr. Si Freyr fait un coup critique il relance une attaque Succesives (maximum 5). Peut faire baisser la vitesse des ennemis.
+
+Armée Lumineuse : Invoque trois elfes Lumineux. Quand un des elfes meurt Freyr augmente toute ses statistiques
+
+Eldorado : Envoie une gigantesque sphère d'or sur tout les ennemis. Ignore et brise tout les boucliers.
+
+Jugement Divin : Vise une cible, un halo aveuglant inflige des dégats à la cible. Paralyse et réduit à 0.1 les coefficients d'attaque de la cible pour 2 tour. Peut paralyser
+
+
+Ragnarok : Freyr détruit le terrain et inflige des dégats à tout les ennemis, paralyse et rend vulnérable les ennemis. Freyr récupère 20 points de Bouclier.
+
 
 ##### Vanaheim : 
 
@@ -467,238 +624,459 @@ Boss Freya, Freyr
 Niveaux finaux
 Boss : Thor Odin Loki(à développer)
 
-
-
 ### Carte
 
 #### Commun
 
 ##### Attaque De base.
 
-Attaque corps à corps : 
-Condition: Aucune
-Type : Attaque rapproché (monocible)
-Energie : 1 + malus objet rapproché
-Attaque : 3 + bonus objet rapproché
+###### Attaque corps à corps : 
+Condition: Aucune  
+Type : Attaque rapproché (monocible)  
+Energie : 1 + malus objet rapproché  
+Attaque : 3 + bonus objet rapproché  
 Description : Un coup au corps à corps de base. Augmente en fonction de l'objet rapproché porté par le joueur.
 
-Lancer de projectile :
-Condition : Aucune
-Type : Attaque à distance. (monocible)
-Energie : 2 + malus objet à distance.
-Attaque : 4 + bonus objet à distance.
+###### Lancer de projectile :
+Condition : Aucune  
+Type : Attaque à distance. (monocible)  
+Energie : 2 + malus objet à distance.  
+Attaque : 4 + bonus objet à distance.  
 Description : Un lancer à distance de base. Augmente en fonction de l'objet à distance porté par le joueur.
 
-Attaque rapide : 
-Condition : Aucune
+###### Attaque rapide : 
+Condition : Aucune  
 Type : Attaque rapproché + vitesse (monocible)
-energie : 2
-Attaque : 3 + aléatoire(1,3)
+energie : 2  
+Attaque : 3 + aléatoire(1,3)  
 Description : Deux attaques successives qui augmente la vitesse du joueur. La deuxième attaque inflige des dégats selon la vitesse du joueur.
 
-Lame acéré : 
-Condition : porter une arme de types "lame"
-Type : attaque rapproché + effets (monocible)
-energie : 1
-Attaque : 2 + bonus objet à lame
+###### Lame acéré : 
+Condition : porter une arme de types "lame"  
+Type : attaque rapproché + effets (monocible)  
+energie : 1  
+Attaque : 2 + bonus objet à lame  
 Description : Une attaque lancé avec une lame tranchante. Possibilité d'appliqué une vulnérabilité sur l'ennemi. Si L'ennemi devient vulnérable votre coefficient d'attaque augmente. L'attaque augmente en fonction de l'objet à lame.
 
-Attaque surprise : 
-Condition : Aucune
-Type : attaque aléatoire
-energie : 2
-Attaque : ?
+###### Attaque surprise : 
+Condition : Aucune  
+Type : attaque aléatoire  
+energie : 2  
+Attaque : ?  
 Description : Piochez une carte, si c'est une carte attaque, lancer cette attaque sans utiliser de l'energie même si il y a une condition, sinon, lancer une Attaque de 2 points sur l'adversaire.
 
-Salve destructrice : 
-Condition : Posséder une arme à distance
-Type : Attaque à distance. (AOE multi targeted)
-energie : 3
-Attaque : 3 * aléatoire(1,4)
+###### Salve destructrice : 
+Condition : Posséder une arme à distance  
+Type : Attaque à distance. (AOE multi targeted)  
+energie : 3  
+Attaque : 3 * aléatoire(1,4)  
 Description : Envoie 3 salve à distance de dégats aléatoire de 1 à 4 points sur l'adversaire.
 
-Rage magique : 
-Condition : Posséder une arme niveau 2
-Type : Attaque magique + physique + effet (monocible)
-energie : 5
-Attaque : 9 + aléatoire(1,9)
+###### Rage magique : 
+Condition : Posséder une arme niveau 2  
+Type : Attaque magique + physique + effet (monocible)  
+energie : 5  
+Attaque : 9 + aléatoire(1,9)  
 Description : Ensorcelle l'arme posséder et assène un puissant coup magique et physique. Selon l'arme peut appliquer des effets. Etourdi l'ennemi pendant un tour (impossibilité de attaque/defense). les dégats supplémentaire aléatoire sont calculé en fonction de la puissance de l'arme équipé.
 
-Souffle de feu : 
-Condition : Posséder une arme magique
-Type : Attaque magique + effet. (AOE all)
-energie : 4
-Attaque : 5 + aléatoire(1,3)
+###### Souffle de feu : 
+Condition : Posséder une arme magique  
+Type : Attaque magique + effet. (AOE all)  
+energie : 4  
+Attaque : 5 + aléatoire(1,3)  
 Description : Crache une boule de feu sur tout les ennemis. Possibilité de bruler. Dégats supplémentaire en fonction de l'arme magique.
 
-Attaque empoisonné : 
-Condition : Posséder une arme empoisonné
-Type : Attaque rapproché + effet
-energie : 2
-Attaque : 2 + poison
+###### Attaque empoisonné : 
+Condition : Posséder une arme empoisonné  
+Type : Attaque rapproché + effet  
+energie : 2  
+Attaque : 2 + poison  
 Description : enfonce une arme dans l'adversaire qui l'empoisonne.
 
-Incantation anhilatrice :  
-Condition : Posséder une arme magique
-Type : Attaque magique + effet (AOE targeted)
-energie : 3
-Attaque : 8
+###### Incantation anhilatrice :  
+Condition : Posséder une arme magique  
+Type : Attaque magique + effet (AOE targeted)  
+energie : 3  
+Attaque : 8  
 Description : Trace des cercles magiques pendant deux tour (impossible de jouer pendant ces tours d'incantation), Puis lance une puissante incantation sur la cible. 
 
-Plus d'un tour dans son sac : 
-Condition : Aucune
-Type : Attaque  aléatoire + effet longue durée
-energie : 3
-Attaque : ?
+###### Plus d'un tour dans son sac : 
+Condition : Aucune  
+Type : Attaque  aléatoire + effet longue durée  
+energie : 3  
+Attaque : ?  
 Description : Pioche trois carte sur trois tour si la carte est une carte attaque elle vaut 1 et doit être utilisé avant la fin du tour sinon elle est detruite. Sinon la carte est normal.
 
-Changement de main : 
-Condition : Aucune
-Type : Attaque magique 
-energie : 3
-Attaque : ? 
+###### Changement de main : 
+Condition : Aucune  
+Type : Attaque magique   
+energie : 3  
+Attaque : ?   
 Description : Transforme une des cartes du joueur en carte attaque aléatoire avec cout d'energie nulle. La carte doit être utilisé avant la fin du tour.
 
-Explosion retardé : 
-Condition : Posséder une arme magique
-Type : Attaque magique 
-Energie : 4
-Attaque : ?
+###### Explosion retardé : 
+Condition : Posséder une arme magique  
+Type : Attaque magique   
+Energie : 4  
+Attaque : ?  
 Description : Transforme un ennemi (seulement des ennemis faibles "à definir") en bombe à retardement. il ne peut plus attaquer pendant deux tour,il perds 50% de ses points de vie actuel par tour. L'ennemi meurt et explose selon le nombre de points de vie qui lui reste.
 
-Morsure gelée : 
-Condition : Posséder un objet de type "Glace"
-Type : Attaque physique + effet
-Energie : 3
-Attaque : 3 + aléatoire(1,2)
+###### Morsure gelée : 
+Condition : Posséder un objet de type "Glace"  
+Type : Attaque physique + effet  
+Energie : 3  
+Attaque : 3 + aléatoire(1,2)  
 Description : Inflige une morsure qui gèle l'ennemi. Subit des dégats supplémentaire en fonction de l'objet équipé.
 
 
-Electrocution : 
-Condition : Posséder un objet de type "Foudre"
-Type : Attaque physique + effet
-Energie : 2
-Attaque : 2
+###### Electrocution :
+
+Condition : Posséder un objet de type "Foudre"  
+Type : Attaque physique + effet  
+Energie : 2  
+Attaque : 2  
 Description : Electrocute l'ennemi et le paralyse. si electrocution inflige des coups critiques, augmente la vitesse du lanceur.
 
 ##### Attaque combiné
 
-Uppercut : 
-Condition : Sacrifié au moins deux "Attaque au corps à corps"
-Type : Attaque physique + effet
-Energie : 2 * nombre de carte sacrifié
-Attaque : 3 * nombre de carte sacrifié
+###### Uppercut : 
+Condition : Sacrifié au moins deux "Attaque au corps à corps"  
+Type : Attaque physique + effet  
+Energie : 2 * nombre de carte sacrifié  
+Attaque : 3 * nombre de carte sacrifié  
 Description : Assène x(nombre de carte sacrifié) coups surpuissant rapproché. Possibilité d'etourdir ou de rendre vulnérable l'ennemi à chaque coups. Si le coups etourdit donne un coup final supplémentaire. Si le coups rend vulnérable, augmente le coefficient d'attaque du personnage.
 
-Shotgun : 
-Condition : Sacrifié au moins deux "Lancer de projectile"
-Type : Attaque à distance + effet
-Energie : 3 * nombre de carte sacrifé
-Attaque : 4 * nombre de carte sacrifié
+###### Shotgun : 
+Condition : Sacrifié au moins deux "Lancer de projectile"    
+Type : Attaque à distance + effet  
+Energie : 3 * nombre de carte sacrifé  
+Attaque : 4 * nombre de carte sacrifié  
 Description : envoie x(carte sacrifiés) en simultané. augmente les chances de coups critique. Si Shotgun inflige un coups critique, pioche le nombre de cartes sacrifiés. Si toutes les cartes pioché sont des "Lancer de projectile" celle-ci vaudront 1.
 
-Spectacle sanglant : 
-Condition : "Lancer de projectile" + "Attaque au corps à corps"
-Type : Attaque distance + rapproché
-Energie : 5
-Attaque : aléatoire(2,6) + aléatoire(1,5)
+###### Spectacle sanglant : 
+Condition : "Lancer de projectile" + "Attaque au corps à corps"  
+Type : Attaque distance + rapproché  
+Energie : 5  
+Attaque : aléatoire(2,6) + aléatoire(1,5)  
 Description : Se met proche de l'ennemi et envoie des projectiles sur tout les ennemis, Possibilité de vulnérabilité et de saignement. Les dégats se calcule selon les armes portés (si le personnage porte une arme à distance puissant il aura plus de chance d'avoir l'aléatoir(2,6) au maximum. Pareil pour ls armes rapproché). Si "Spectacle sanglant" inflige les dégats maximum, fait saigner instantanément.
 
-Poing Suprème : 
-Condition : 2 cartes attaque quelconque.
-Type : Attaque rapproché
-Energie : 3
-Attaque : 6
+###### Poing Suprème : 
+Condition : 2 cartes attaque quelconque.  
+Type : Attaque rapproché  
+Energie : 3  
+Attaque : 6  
 Description : Se concentre un tour pour envoyer un poids géant sur les ennemis.
 
-Secouse Tombale : 
-Condition : 3 cartes attaque quelconque.
-Type : Attaque magique + effet
-Energie : 4
-Attaque : 10
+###### Secousse Tombale : 
+Condition : 3 cartes attaque quelconque.  
+Type : Attaque magique + effet  
+Energie : 4  
+Attaque : 10  
 Description : Detruit le sol et casue des degats à tous les personnage présent sur la map (y compris son lanceur). Les ennemis prennent 10 de degats les alliés prennent 4 de dégats.
 
-Coup de boule : 
-Condition : 2 cartes attaque quelconque.
-Type : Attaque rapproché
-Energie : 3
-Attaque : 8
+###### Coup de boule : 
+Condition : 2 cartes attaque quelconque.  
+Type : Attaque rapproché  
+Energie : 3  
+Attaque : 8  
 Description : Envoie un gros coup de boule à un adversaire. Le lanceur perds 3 points de vie
 
-Charge Victorieuse : 
-Condition : 3 cartes attaques quelconque.
-Type : Attaque physique.
-Energie : 7
-Attaque : 12
-Description : Invoque les Walkyries et charge violemment vers tout les ennemis
+###### Charge Victorieuse : 
+Condition : 3 cartes attaques quelconque.  
+Type : Attaque physique.  
+Energie : 7  
+Attaque : 12  
+Description : Invoque les Valkyries et charge violemment vers tout les ennemis. Si il y a coup critique sur une cible, Obtient une carte contre dans la main du lanceur
 
 
-Malédiction d'Andvari : 
-Condition : "Rage Magique" + "Incantation Anhilatrice"
-Type : Attaque magique
-Energie : 
-Attaque : 
-Description : 
+###### Malédiction d'Andvari : 
+Condition : "Rage Magique" + "Incantation   Anhilatrice"  
+Type : Attaque magique  
+Energie : 6   
+Attaque : 15   
+Description : Dessine des cercles magique qui enchante l'arme du lanceur pendant trois tour. Envoie une vague magique surpuissante sur tout les ennemis. Peut etourdir, Paralyser ou rendre confus. Si un effet est activé Récupérer deux points d'energie.   
 
-Explosion de Thor : 
-Condition : "Electrocution" + "Explosion retardé"
-Type : Attaque Magique
-Energie : 6
-Attaque : 10
+###### Explosion de Thor : 
+Condition : "Electrocution" + "Explosion retardé"  
+Type : Attaque Magique  
+Energie : 6  
+Attaque : 10  
 Description : Envoie une decharge electrique à tout les ennemis. Si un ennemi meurt après l'attaque il explose et envoie des dégats collatéral à ces alliées de 4 points de vie (à revoir). Peut paralyser. 
 
-Pioche Salvatrice : 
-Condition : "Plus d'un tour dans son sac" + "changement de main"
-Type : 
-Energie : 
-Attaque : 
-Description : 
+###### Pioche Salvatrice : 
+Condition : "Plus d'un tour dans son sac" + "changement de main"  
+Type : Attaque + deck   
+Energie : 5   
+Attaque : ?   
+Description : Piochez 3 cartes, Si il n'y a pas de carte attaque transformer toute les cartes en carte attaque aléatoire. Si les trois cartes sont de types attaque lancer les trois cartes sans couts supplémentaire. Sinon Les cartes attaques piochés ont un coup nul, les autres sont transformé en carte attaque.    
 
-Danse de l'arlequin : 
-Condition : "Attaque rapide" + "Attaque surprise" + "changement de main"
-Type : 
-Energie : 
-Attaque : 
-Description : 
+###### Danse de l'arlequin : 
+Condition : "Attaque rapide" + "Attaque surprise" + "changement de main"  
+Type : Attaque + vitesse   
+Energie : 7  
+Attaque : aléatoire(3,6) + aléatoire(2,7) + aléatoire(1,8)  
+Description : Enchaines 3 attaques  rapide. Pioche une carte à chaque attaque si la carte est une carte attaque elle a un coup de 1. Augmente la vitesse du lanceur tels qu'il commence en premier le prochain tour.
 
-Pioche de Njord : 
-Condition : "Danse de l'arlequin" + "Pioche Salvatrice"
-Type : 
-Energie : 
-Attaque : 
-Description : 
+###### Pioche de Njord : 
+Condition : "Danse de l'arlequin" + "Pioche Salvatrice"  
+Type : Attaque + vitesse + deck  
+Energie : 9  
+Attaque : 5  
+Description :Pioche 3 cartes, Les cartes ont un cout nul pour le tour. Si les 3 cartes sont de types attaque le lanceur récupère "Danse de l'arlequin" dans sa main avec un cout nul. Si les 3 cartes sont defensive Inflige 5 à tout les ennemis. 
 
-Appel du Niflheim : 
-Condition : "Morsure gelée" + "Lame acéré" + "Salve destructrice"
-Type : Attaque Magique
-Energie : 
-Attaque : 
-Description : 
+###### Appel du Niflheim : 
 
-Spectacle empoisonnant : 
-condition : "Spectacle sanglant" + "attaque empoisonné"
-Type : Attaque + effet
-Energie : 7
-Attaque : 12
+Condition : "Morsure gelée" + "Lame acéré" + "Salve destructrice"  
+Type : Attaque Magique  
+Energie : 7   
+Attaque : 10   
+Description : Tranche la totalité du terrain pour envoyé une vague de glace sur tout les ennemis. Gèle la cible et peut geler les autres ennemis. Peut rendre vulnérable la cible. Si la cible devient vulnérable, le lanceur lance "lame acéré" avec une chance de coups critique de 100%.  
+
+###### Spectacle empoisonnant : 
+
+condition : "Spectacle sanglant" + "attaque empoisonné"  
+Type : Attaque + effet  
+Energie : 7  
+Attaque : 12  
 Description : Se met proche de l'ennemi et envoie des projectiles empoisonné sur tout les ennemis. Empoisonne la cible principal et peut empoisonné les autres. Le temps de l'empoisonnement Chaque attaque physique infliera des coups critique.
 
 ##### Carte Defense.
 
+(chercher des noms)
+###### Bouclier en bois
+Type : défense
+Energie : 0 
+Description : Donne 5 pts d'armure à un personnage allié
+
+###### Bouclier en bronze
+Type : défense
+Energie : 1 
+Description : Donne 8 points d'armure à un personnage allié
+
+###### Bouclier en acier
+(sah jsuis nul pour les noms)
+Type : défense
+Energie : 2 
+Description : Donne 12 points d'armure à un personnage allié
+
+carte 4
+Type : défense
+Energie : 3 
+Description : Donne 6 points d'armure à tous allié
+
+carte 5 
+Type : défense + soin
+Energie 1
+Description : Donne 5 points d'armure et rend X pv (à définir) à un allié
+
+carte 6 
+Type : défense + deck
+Energie : 2 
+Description : le lanceur pioche 2 cartes, si il pioche une carte de buff(jsp à revoir), donne 6 points d'armure au lanceur.
+
+(note : faire une carte qui inflige un montant de dégât en rapport avec l'armure)
+
+carte 7 : 
+Type : défense
+Energie : 1
+Description : Echange x montant de Pv en x * 1.5 ou 2 de points d'armure
+
+###### Larcin
+Type : défense
+Energie : 1 
+Description : le lanceur vole l'equivalent de la moitié des points de d'armure de l'adversaire séléctionné(retire les points à l'adversaire également), si il n'en possède pas, le lanceur gagne 3 points d'armure
+
+###### Equilibre
+Type : défense
+Energie : 2 
+Description : le lanceur gagne autant de points d'armures que la cible
 
 ##### Carte Deck
+
+###### Pioche simple
+Type : deck
+energie : 0
+Description :pioche une carte
+
+###### Double Pioche 
+Type : Deck
+Energie : 1 
+Description : pioche 2 cartes
+
+###### Triple pioche 
+Type : Deck
+Energie : 3
+Description : pioche 3 cartes
+
 
 
 ##### Carte Effet
 
+###### Hypnose : 
+
+Condition : Aucune  
+Type : Effet  
+Energie : 2  
+Attaque : 0  
+Description : Rend confus l'ennemi
+
+###### Ballade Suicidaire
+
+Condition : Posséder un objet "musique"  
+Type : Effet  
+Energie : 4  
+Attaque : 0  
+Description : Décrit une mélodie envoutante qui rend confus l'ennemi et renvoie la prochaine attaque de l'ennemi contre lui même.
+
+
+###### Appel de l'anneau
+
+Condition : Posséder un "anneau"  
+Type : Effet  
+Energie : 4  
+Attaque : 0  
+Description : dirige toutes les attaques ennemis vers une cible choisis pendant 2 tour. Si la cible lance une attaque il se rend confus
+
+###### Cri du Helheim
+
+Condition : Posséder une arme "magique"  
+Type : Effet  
+Energie : 3  
+Attaque : 0  
+Description : Envoie un cri strident, Paralyse tout les ennemis
+
+###### Bûcher
+
+Condition : Aucune  
+Type : Effet  
+Energie : 2  
+Attaque : 0  
+Description : Envoie une buche embrasé sur l'ennemi. Brûle la cible.
+
+###### Nuée empoisonné
+
+Condition : Aucune  
+Type : Effet  
+Energie : 2  
+Attaque : 0  
+Description : Jette une fiole empoisonné. Empoisonne la cible 
+
+###### Affaiblissement
+
+Condition : Aucune  
+Type : Effet  
+Energie : 2  
+Attaque : 0  
+Description : Affaibli la cible. Rend vulnérable la cible
+
+###### Saignée
+
+Condition : Aucune  
+Type :: Effet  
+Energie : 2  
+Attaque : 0  
+Description : Fait saigner l'ennemi.
+
+
+
 ##### Carte Buff/Nerf
+
+###### Augmentation / Faiblesse
+
+Condition : Aucune  
+Type : Buff/Nerf  
+Energie : 2  
+Attaque : 0  
+Description : Augmente le coefficient d'attaque du lanceur / Baisse le coefficient d'attaque de la cible
+
+###### Coup de main
+
+Condition : Aucune  
+Type : Buff  
+Energie : 2  
+Attaque : 0  
+Description : Augmente le coefficient d'attaque de la cible  
+
+###### Alliance / Demoralisation
+
+Condition : Aucune  
+Type : Buff / Nerf  
+Energie : 4  
+Attaque : 0  
+Description : Augmente le coefficient d'attaque de tout les alliés. / Baisse le coefficient d'attaque des ennemis
+
+###### Conversion offensive
+
+Condition : Aucune  
+Type : Buff  
+Energie : 2  
+Attaque : 0  
+Description : Pioche une carte, si c'est une carte buff son cout sera nulle, sinon la carte pioché se transforme en carte "buff"
+
+###### Puissance supérieure / Malédiction supérieur
+
+Condition : Aucune ?  
+Type : Buff / Nerf  
+Energie : 5  
+Attaque : 0  
+Description :  Augmente toute les stats (attaque/defense/vitesse/points d'eveil/coup critique) du lanceur. / Baisse toutes les stats de la cible
+
+###### Oracle Salvateur / Vague anhilatrice
+
+Condition : Aucune ?  
+Type : Buff / Nerf  
+Energie : 7  
+Attaque : 0  
+Description : Augmente toutes les stats de ses alliées. / Baisse toutes les stats des ennemis
+
+###### Renforcements / Resistance nulle
+
+Condition : Aucune  
+Type : Buff / Nerf  
+Energie : 2  
+Attaque : 0  
+Description : Augmente le coefficient de défense du lanceur / Baisse le coefficient de défense de la cible
+
+###### Aura protecteur
+
+Condition : Aucune  
+Type : Buff  
+Energie : 3  
+Attaque : 0  
+Description : Augmente le coefficient de défense de l'équipe.
+
+###### Roublardise / Poids Insurmontable
+
+Condition : Aucune  
+Type : Buff  
+Energie : 2  
+Attaque : 0  
+Description : Augmente la vitesse du lanceur / Baisse la vitesse de la cible.
+
+###### Vitesse Eclair
+
+Condition : Aucune  
+Type : Buff  
+Energie : 2  
+Attaque : 0  
+Description : Augmente la vitesse de la cible
+
+###### Point vitaux
+
+Condition : Aucune
+Type : Buff
+Energie : 3  
+Attaque : 0  
+Description : Augmente les chances de coups critiques du lanceur
+
 
 ### Modalité de combat
 
 Les personnages principaux possèdent 5 cartes dans sa main, avec un deck à un minimum de X(30?40?) cartes.Le jeu se déroule en tour par tour. Les cartes peuvent être dupliqué selon leur catégorie.
 
-Carte commune (attaque/defense/effet/soin/etc...) : 5 maximum
-Carte personnage : 3 maximum
-Carte combiné : 2 maximum
+Carte commune (attaque/defense/effet/soin/etc...) : 5 maximum  
+Carte personnage : 3 maximum  
+Carte combiné : 2 maximum  
 
 On commence avec une barre d'eveil vide, les points de vie/energie/passif/defense/vitesse de base.
 
