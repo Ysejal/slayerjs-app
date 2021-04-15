@@ -1112,9 +1112,13 @@ Si le joueur ne possède plus de carte que faire ???(faire passer son tour ? Gam
 
 ## Installation de l'environnement Code
 
-Nous avons utilisé le package create-new-app dans npm pour concevoir l'environnement de notre application avec React et Express le module de NodeJS. https://www.npmjs.com/package/create-new-app
+Nous avons utilisé un ensemble de technologies Javascript grâce à npm pour concevoir l'environnement de notre application avec React et Express le module de NodeJS.
 
-## Conception de l'architecture de l'application.
+## Conception de l'architecture MERN.
+
+MERN Stack est un ensemble de technologies Javascript utilisé pour un déploiement rapide des applications Web. MERN comprend 4 technologies, MongoDB pour la gestion de base de données, le Framework Javascript Back End Express JS, React pour le front et le serveur Javascript NodeJS. Le Stack MERN est conçu pour rendre le processus de développement fluide et facile.
+
+ReactJS est devenu une référence incontournable pour le développement d’interfaces utilisateurs riches et dynamiques avec une communauté qui compte des millions d'utilisateurs.
 
 ## Sources
 
