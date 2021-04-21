@@ -1,0 +1,10 @@
+.bar{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+}
+
+h2 {
+    color: white;
+  }

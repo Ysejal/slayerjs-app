@@ -1,0 +1,21 @@
+h1 {
+  color: green;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  background-color: gray;
+  text-align: center;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  color: white;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}

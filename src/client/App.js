@@ -1,19 +1,64 @@
-// import {Router, Route, hashHistory} from 'react-route';
-import {Button} from 'antd';
-import Header from '../components/header';
-import 'antd/dist/antd.css';
-import './app.css';
-import TurtleImage from '../image/turtle.png';
+import React, { Component } from 'react';
+import '../css/app.css';
+import bgImage from '../images/bg.png';
+import Bar from '../components/bar';
 
-export default class App extends React.Component {
+import {Row, Col} from 'antd';
+import 'antd/dist/antd.css'
+
+const divStyle = {
+  width: "100%",
+  height: "850px",
+  color: 'black',
+  backgroundImage: 'url(' + bgImage + ')',
+};
+
+const buttonStyle = {
+  display: 'flex',  
+  justifyContent:'center', 
+  alignItems:'center', 
+  height: '100vh',
+};
+
+export default class App extends Component {
+
+  newClick() {
+  }
+
+  continueClick() {
+  }
+
+  quitClick() {
+
+  }
+
   render() {
     return (
-      <div>
-          <Header></Header>
-        {<h1>{`Slayer`}</h1>}
-        <img src={TurtleImage} alt="turtle" width="80%" />
+      <div style={divStyle}>
+        <Bar></Bar>
+        <img src={'../images/smith.png'} alt="turtle"/>
+        <div style={buttonStyle}>
+          <Col>
+            <Row>
+              <button onClick={this.newClick}>
+                {'New Game'}
+              </button>
+            </Row>
+            <br />
+            <Row>
+              <button onClick={this.continueClick}>
+                {'Continue'}
+              </button>
+            </Row>
+            <br />
+            <Row>
+              <button onClick={this.quitClick}>
+                {'Quit'}
+              </button>
+            </Row>
+          </Col> 
+        </div> 
       </div>
     );
-  };
+  }
 }
-ReactDOM.render(<App />, document.getElementById('root'));
