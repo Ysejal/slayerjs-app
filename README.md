@@ -243,7 +243,7 @@ Contrecoup : Brunehilde ne peut activer "Halo" pendant 4 tour, ses points "halo"
 
 ### Carte du monde : Yggdrasil
 
-![image alt](https://i.pinimg.com/originals/d8/36/8e/d8368ea201efac4437f1a13302fe3f95.png)
+![image alt](https://thumbs.dreamstime.com/z/arbre-du-monde-de-vecteur-d-%C3%A2%E2%82%AC-de-yggdrasil-de-la-mythologie-scandinave-95205217.jpg "Yggdrasil")
 
 Le premier monde "accessible" sera le monde du "bas" constitué de Helheim, Svartalheim et Muspeilheim
 
@@ -414,6 +414,87 @@ attaque + effet : attaque sur les ennemis + application d'effet sur attaqué ou 
 Attaque/Defense + soin : Soit Attaque + soin soit Defense + Soin
 Defense + effet : defense sur le caster + application de l'effet lors d'une attaque sur le caster
 
+### Objets 
+
+Il y a différent type d'objet.
+
+#### Armes 
+
+Les armes permettent au héros d'augmenter leur coefficient d'attaque/defense/vitesse/bouclier et d'obtenir des effets sur leur attaques. Les heros possèdent leur propres armes mais il peuvent être équipés de une armes supplémentaire maximum.
+
+Epee : Attaque : +1. Peut faire saigner 
+
+Hache : Attaque : +2
+
+Lance : Attaque : +1. Peut rendre vulnérable
+
+Dague : Attaque : +1. Augmente la vitesse
+
+Marteau : Attaque : +3. Reduit la vitesse
+
+Masse : Attaque : +4. Reduit la vitesse augmente les chances de coups critique.
+
+Lance pierre : Attaque +1
+
+Archer + fleche : Attaque +2. Peut rendre vulnérable
+
+Arbalète : Attaque +3.
+
+Fusils : Attaque +5? Reduit la vitesse.
+
+#### Ressources 
+
+Les ressources sont des objets utilisable en dehors et/ou pendant un combat.
+
+##### Ressources En-Jeu
+
+Potion de vie : redonne des points de vie
+
+Potion d'energie : redonne de l'energie
+
+POtion Bouclier : donne du bouclier
+
+Potion vitesse : Donne de la vitesse.
+
+Potion defense : Augmente coefficient de défense.
+
+Potion attaque : Augmente coefficient d'attaque.
+
+Potion débuff : Annule tout les effets.
+
+Potion poison : Annule l'empoisonnement.
+
+Potion brulure : Annule La brulure.
+
+Potion paralysation : Annule la paralysation.
+
+Potion Saignement : Annule le saignement.
+
+potion Vulnérabilité : Annule la vulnérabilité.
+
+Potion Confusion :  Annule la confusion.
+
+Enchantement poison : la prochaine attaque empoisonne.
+
+Enchantement brulure : la prochaine attaque brule.
+
+Enchantement paralysation : la prochaine attaque paralyse.
+
+Enchantement Saignement : la prochaine attaque fait Saigner.
+
+Enchantement Vulnérabilité : la prochaine attaque rend vulnérable.
+
+Enchantement Confusion :  la prochaine attaque rend confus.
+
+Enchantement coup critique : La prochaine attaque inflige un coup critique.
+
+#### Carte Invocation
+
+Les cartes invocations ne sont pas des objets normaux. Ils sont trouvable en battant des monstres comme les objets régulier mais sont utilisés comme des cartes. Puis se comporte comme un "personnage" allié.
+
+Les cartes d'invocation sont obtenable en battant des monstres "moyen" ou "puissant" (boss) il permet au joueurs d'invoquer des dieux ou des esprits puissants pendant un combat. Chaque monstres moyen ou puissant possède une carte Invocation utilisable.
+
+
 ### Ennemis
 
 #### Bas:
@@ -493,7 +574,7 @@ Torrent de Freyr : Invoque un typhon géant avec son épée attaquant tout les e
 
 Briseur Temporelle : L'épée de Freyr brise le vent et attaque tout les ennemis avec 2 attaques successives. Augmente les chances de coups critique de Freyr. Si Freyr fait un coup critique il relance une attaque Succesives (maximum 5). Peut faire baisser la vitesse des ennemis.
 
-Armée démoniaque : Invoque trois elfes démoniaque. Quand un des elfes meurt Freyr augmente toute ses statistiques
+Armée démoniaque : Invoque trois elfes démoniaque. Quand un des elfes meurt Freyr augmente toute ses statistiques 
 
 Vortex du Vide : Mets le coefficient déffensif de la cible à 0 pendant 2-3 tour. La cible ne peut plus avoir de bouclier. 
 
@@ -502,22 +583,99 @@ Domptage Démoniaque : Freyr invoque Fenrir. Si fenrir meurt freyr récupère se
 Ragnarok : Freyr détruit le terrain et inflige des dégats à tout les ennemis, Brule et rend confus les ennemis. Draine des points de vie à tout les ennemis.
 
 ##### Muspellheim : 
-Ymir?
-Surtr : attaques de feu (effet : brulûre), arme : epée enflammée
 
-##### Helheim : 
+Monde des géants dirigé par Ymir et Sutr
 
-royaume des morts : ennemis-> morts-vivants ou âmes
+###### Géant (homme et femme)
 
-Boss: Déesse Hel
+Géant habitant du monde de Muspellheim
 
-###### Hel
+Pietinement : Pietine la cible et inflige des dégats. Peut rendre confus et baisse la vitesse de la cible
 
-Déese de la mort : Visage mi tenebreux mi lumineux.
+Folie meurtrière : Le lanceur devient incontrolable augmentant grandement son coefficient d'attaque. Se rend confus.
+
+###### Ymir 
+
+Geant createur du Monde
 
 Armes : Aucune
 
-Capacité : 
+Compétences : 
+
+Ecrasement : Effectue un bond et ecrase ses ennemis. Peut rendre confus et reduit la vitesse des ennemis 
+
+Aura Nefaste : Ymir propage son aura nauséabond. Fais baisser les statistique des ennemis et augmente les chances de coups critique de Ymir. Rend vulnérable
+
+Creation : Invoque des géants à la solde de Ymir (3)
+
+###### Sutr : 
+
+Gardien du royaume Muspellheim. Puissant Géant maitrisant les flammes
+
+Arme : Epee du ragnarok
+
+Compétences :   
+
+Surchauffe : Concentre l'energie de son épée pendant 2 tour. Explose le terrain et attaque sa cible. Peut tuer en un coup.
+
+Jugement Flamboyant : Plante l'épe du ragnarok dans la terre et fait monter des halo de flammes sur tout les ennemis. Brule les ennemis.
+
+Explosion Magmatique : Invoque un volcan qui entre en éruption. Attaque tout les ennemis et inflige des coups critiques. Brule les ennemis.
+
+Furie du Ragnarok : Agite son épée et maudit tout les ennemis. Augmente les chances de coups critique et concentre une attaque pendant un tour. Envoie un coup de lame surpuissant sur le terrain qui brule et paralyse tout les ennemis.
+
+Impact Volcanique : Sort son poing et se déchaine sur sa cible. Si Sutr inflige un coup critique il continue de frapper sa cible. peut rendre confus. Maximum 3 coups.
+
+Balayage de flamme : Deploit son épée et brule tout les ennemis et les rends vulnérable.
+
+##### Helheim : 
+
+Monde des morts et de l'au dela.
+
+##### Ame errante
+
+Ame ne pouvant trouver le repos.
+
+Arme : Aucune
+
+Compétences : 
+
+Sursaut : Maudit la cible avec un cri d'effroi
+
+Griffe spectral : Attaque la cible d'un coup de cri acéré. Peut maudire
+
+
+###### Zombie
+
+Corps revenu à la vie sans ame
+
+Arme : Aucune 
+
+Compétences : 
+
+Marche sombre : Va vers la cible et le frappe de toute ses forces.
+
+Invasion de morts : appelle ses congénères à attaquer les ennemis. inflige des dégats à tout les ennemis peut rendre confus.
+
+###### Monstre de Glace
+
+Gardien du Niflheim et Helheim faisant regner l'ordre dans le royaume
+
+Lance stalatcite : Envoie une lance de glace sur la cible. Peut geler
+
+Deluge stalagmite : Fait tomber des pics de glace sur tout les ennemis. Peut geler et rend vulnérable.
+
+Horde Glacière : Envoie une armée de Monstres de glace protéger le lanceur.Gagne du bouclier et du coefficient de défense et Invoque 2 monstres de glace.
+
+Vague zero absolu : Envoie une vague de froid sur tout les ennemis. Gele tout les ennem
+
+###### Hel
+
+Déese de la mort : Visage mi tenebreux mi lumineux.  
+
+Armes : Aucune  
+
+Capacité :   
 
 Baiser de la mort : Hel passe derrière sa cible et lui tranche le dos avec son couteau. Fait saigner et fait baisser la vitesse et les chances de coups critique de la cible.
 
@@ -539,9 +697,47 @@ Peste : Envoie la peste sur tous les ennemis. Rend maudit et confus et empoisonn
 
 ##### Midgard : 
 
-ennemis : humains
+###### Ask
+
+Créature masculine humaine
+
+Arme : Aucune 
+
+Lancer de pierre : Lance une pierre qui inflige des dégats au lanceur. Peut rendre confu
+
+Intelligence : Augmente une des statistique du lanceur aléatoirement. 
+
+###### Elma
+
+Créature feminine Humaine
+
+Arme : Aucune
+
+guérison : Guéris une cible choisis
+
+Intelligence : Augmente une des statistique du lanceur aléatoirement. 
+
+
+
+###### Helgi
+
+Héros Des humains. Demi frère de Sigurd
+
+Arme : Epee et bouclier
+
+Compétences : 
+
+Charge : Charge violemment vers l'ennemi. Peut rendre confus et rend vulnérable
+
+Baroud d'honneur : Baroud d'honneur s'active lorsque Helgi passe sous les 20% de point de vie. Son coefficient d'attaque est triplé et ses chance de coups critique augmente fortement.
+
+Chevauchée héroîque : Helgi monte sur son cheval pour embrocher son ennemi. Forte chance de coups critique. Si helgi inflige un coup critique son coefficient d'attaque augmente.
+
+Alliance terrestre : Appelle ses confrère humain à l'aide.
 
 ###### Jormungand
+
+
 
 Serpent entourant le monde des humains. Protecteur de Midgard. 
 
@@ -557,11 +753,43 @@ Pluie Empoisonné : Envoie son poison sur tout les ennemis : Empoisonne et rend 
 
 ##### Nivadellir : 
 
-ennemis : nains
-Armes : hache
-Particularités : plus forts, moins de Pv
+###### Nains forgeur
 
-Boss: Motsognir
+Nains communs du monde de Nivadellir. Possède un coefficient de défense elevé. Plus de points de vie.
+
+Armes : Marteau
+
+Compétences:
+
+Coup de marteau : Coup de marteau infligeant des dégats. Peut rendre confus
+
+Provocation : Donne un bouclier au lanceur et augmente le coefficeint de défense.
+
+###### Nains Roublard
+
+Nains au vice elevé. Vitesse elevé.
+
+Compétences : 
+
+Armes : Dague
+
+Vol à la tire : Passe derrière la cible et paralyse la cible. Peut faire baisser la vitesse de la cible
+
+Dague Invisible : Passe derrière la cible poignarde la cible. Peut empoisonner
+
+###### Nains Guerrier
+
+Nains défenseur de de Nivadellir. Apte et prêt au combat
+
+Armes : Hache
+
+Compétences
+
+Hachage : Tranche la cible avec sa hache. Peut faire saigner
+
+Sagesse de Nivadellir : Se met en position de défense et gagne des points de boulier. La prochaine attaque qu'il recoit sera renvoyer.
+
+Volonté supérieur : Augmente l'attaque du lanceur.
 
 ###### Motsognir
 
@@ -585,12 +813,98 @@ Choc Primordial : Motsognir frappe la terre avec son marteau et attaque tout les
 
 ##### Jotunheim : 
 
+###### Géant de glace
+
+Géant vivant dans les contrées glacé de jotunheim
+
+Arme : Masse glacé
+
+Compétences : 
+
+Massue : Envoie un coup de masse sur sa cible. Peut geler et rendre confus
+
+Repos : Repose le lanceur pendant un tour et restaure ses points de vie.
+
+###### Norfi 
+
+Fils de loki fidèle serviteur de Prymir
+
+Arme : Aucune
+
+Sombre dessein : Augmente sa vitesse et ses chances de coups critique au lanceur.
+
+Etourdissement : Envoie un coup puissant sur sa cible. Rend confus la cible.
+
+Fourberie de Loki : Draine de la vie à sa cible. Augmente le coefficient de défense du lanceur.
+
+###### Prymir
+
+Gardien du royaume des géants de glace : Jotunheim
+
+Arme : Marteau
+
+Hiver cataclysmique : Envoie une tempête glacé sur tout les ennemis. Peut geler.
+
+Puissance caché : Augmente toute les statistique (sauf vitesse) de manière colossal au lanceur. Perds de la vitesse.
+
+Fracas de Thor : Utilise son marteau pour envoyer un fracas destructeur au sol. Paralyse et rend vulnérable tout les ennemis et inflige des dégats à tous.
+
+Dérobage : Vole l'arme de la cible. Fait baisser la vitesse et les coups critique de la cible.
+
+Vacarme Assourdissant : Pousse un énorme cri sur tout les ennemis. Rend confus et fait baisser le coefficient d'attaque et les chances de coups critique ainsi que détruit tout les boucliers.
+
+
 ennemis : géants 
 
 
 #### Haut:
 
 ##### Ljosalfheim : 
+
+###### Elfes lumineux : 
+
+Elfes de lumières 
+
+Armes : Arc
+
+Compétences : 
+
+Tir purificateur : Envoie une flèche sur sa cible. Augmente les chances de coups critique du lanceur. Peut rendre confus.
+
+Purification : Annule tout les effets sur le lanceur et augmente sa vitesse.
+
+
+###### Fées protectrice : 
+
+Fées possèdent des capacités de guérison
+
+Armes : Baton magique
+
+Compétences : 
+
+Revigorant elfique : Restaure des points de vie à la cible et augmente son coefficient de défense
+
+Roulette magique : Inflige des dégats à la cible et applique un effet aléatoire à la cible.
+
+###### Gardien des elfes : 
+
+Gardien puissant qui gèrent les être du royaume des elfes lumineux
+
+Armes : Hallebarde
+
+Compétences : 
+
+Barrière lumineuse : Renvoie toute les attaques magique au prochain tour. Augmente le coefficient de défense et la vitesse du lanceur.
+
+Dépassement de limite : Augmente toute les statistique du lanceur et le concentre pour 2 tour. Envoie une puissante attaque qui rend vulnérable et etourdit la cible.
+
+Hallebarde tueuse : Envoie un coup de hallebarde détonnant sur tout les ennemis. Peut rendre vulnérable.
+
+Vitesse lumière : Augmente fortmenent la vitesse du lanceur
+
+Rayon christique : envoie un rayon lumineux depuis sa hallebarde. Paralyse l'ennemi et inflige de lourd dégats. Augmente les chances de coup critique.
+
+
 
 
 ###### Freyr (mode Ange)
@@ -617,12 +931,167 @@ Ragnarok : Freyr détruit le terrain et inflige des dégats à tout les ennemis,
 
 ##### Vanaheim : 
 
-Boss Freya, Freyr 
+Royaume des dieux de la prospérité.
+
+###### Lancier
+
+Combattant au service des dieux: Il se bat à distance
+
+Arme : Lance
+
+Compétences.
+
+Sniper : Lance son arme sur l'ennemi. Haute chance de cout critique. Si inflige des cout critique. Le lanceur gagne de la vitesse.
+
+Coup de pouce : Gagne des chances de coups critique et un bouclier.
+
+###### Hoplite
+
+Combattant au service des dieux : Il se bat au corps à corps.
+
+Arme : épée et bouclier
+
+
+
+Parade : Bloque une attaque physique.
+
+Estocade : Enfonce un coup d'épée sur la cible.
+
+###### Njord
+
+Dieux primaire des vanes : Maitrise les élements.
+
+Armes : Aucune 
+
+Compétences : 
+
+Fertilisation : Redonne des points de vie à tout les alliées et à lui même.
+
+Abondance : Invoque des Hoplites et des lanciers
+
+Torrent : Envoie une vague puissante sur tout les ennemis. Baisse la vitesse. Brise tout les boucliers
+
+Bourrasque : Fait souffler le vent en direction de tout les ennemis. Baisse la vitesse et le coefficient d'attaque
+
+Exctinction : La colère de Njord détruit tout sur son passage. Paralyse et brule tout les ennemis. 
+
+
+###### Skirnir
+
+Messager de Freyr
+
+Armes : Epée de Freyr
+
+Compétences : 
+
+Envoi miraculeux : Enoi un objet aléatoire sur l'ennemi infligeant des dégats et un effet associé.
+
+Jugement de Freyr : Déploie l'épée legendaire de freyr et déruit tout ce qu'il touche. Touche tout les ennemis.
+
+Angelisation : Skirnir déploie ses ailes. Fait augmenter sa vitesse ainsi que son coefficient de défense. Donne un bouclier. 
+
+Message instantanée : Augmente fortement la vitesse du lanceur.
+
+###### Freya
+Déesse Ultime des Vanes.
+
+Arme : Aucune
+
+Compétences : 
+
+Hall des guérriers : Appelle des Hoplites et lancier au combats. Freya gagne un boucier et augmente son coefficient de défense. 
+
+Charme Vanesque : Séduit sa cible qui la rend confus. Tout les buffs de la cible sont annulés.
+
+Manteau protecteur : Freya arbore son Manteau qui la protège. Gagne un bouclier et augmente son coefficient de défense.
+
+Chevauchée du char : Freya monte sur son char et charge sur l'ennemi. Rend confus et vulnérable la cible et inflige de lourds dégats.
+
+Appel de la guerre : Appel ses alliées à l'attaque. Tout les alliées lance une attaque supplémentaire et Freya lance chavauchée du char. Les statistique de tout les alliées et de Freya augmente.
+
 
 ##### Asgard : 
 
-Niveaux finaux
-Boss : Thor Odin Loki(à développer)
+###### Lancier
+
+Combattant au service des dieux: Il se bat à distance
+
+Arme : Lance
+
+Compétences.
+
+Sniper : Lance son arme sur l'ennemi. Haute chance de cout critique. Si inflige des cout critique. Le lanceur gagne de la vitesse.
+
+Coup de pouce : Gagne des chances de coups critique et un bouclier.
+
+###### Hoplite
+
+Combattant au service des dieux : Il se bat au corps à corps.
+
+Arme : épée et bouclier
+
+Parade : Bloque une attaque physique.
+
+Estocade : Enfonce un coup d'épée sur la cible.
+
+###### Thor
+
+Dieu de la foudre et du tonnerre.
+
+Arme : Marteau de Thor
+
+Compétences : 
+
+Résonnement Electrique : Envoie une onde Electrique qui paralyse tout les ennemis et inflige des dégats.
+
+Couroux Foudroyant : Thor s'enerve et appelle le ciel à foudroyer tout les ennemis. Rend vulnérable et paralyse
+
+Attrape-Tonnerre : Thor attrape un bout de foudre pour le combiner avec son marteau. Multiplie par 10 le coefficient d'attaque de Thor ainsi que sa vitesse. Thor a 100% de chance de coup critique pour 5 tour.
+
+Jugement Des Cieux : Thor appelle ses semblable pour une attaque combiné surpuissante. Inflige des dégats à tous les ennemis et affecte trois effets aléatoire à chaque ennemis. Baisse toute les statistique des ennemis. 
+
+Revanche Statique : Thor se met en position de contre. Contre n'importe quel attaque et paralyse son ennemi.
+
+###### Odin
+
+Dieu principal Boss Final
+
+Arme : Lance Gugnir
+
+
+Compétences : 
+
+Jugement Ultime :  Thor appelle ses semblable pour une attaque combiné surpuissante. Inflige des dégats à tous les ennemis et affecte trois effets aléatoire à chaque ennemis. Baisse toute les statistique des ennemis. 
+
+Armée infini : Invoque une armée de garde des cieux (hoplite,lancier), leur statistique sont augmentés ils possèdent également un bouclier elevé
+
+Victoire acquise : Sacrifie toutes son armée et récupère leur statistique et leur bouclier.
+
+Clairvoyance Destructrice : Odin voit l'avenir et fait rater les attaques de tout les ennemis contre lui pour le prochain tour.
+
+Flamme Divines : Odin Invoque les flammes de l'enfer pour bruler tout les ennemis. Inflige et brule et rend vulnérable tout les ennemis.
+
+
+
+
+###### Loki 
+
+Dieu de la malice
+
+Armes : Poignard 
+
+Compétences : 
+
+Assassinat Silencieux : Loki passe derrière sa cible et le poignarde. Peut tuer en un coup (sauf si possède un bouclier elevé (supérieur à 15?))
+
+Meurtre instantané : Loki invoque les tenèbres et attaque tout les ennemis. Peut tuer en un coup (sauf bouclier)
+
+Vol Divin : Loki vole les statistiques de sa cible et augmente les sienne de 50%. La cible perds entre 50-80% de ses statistique volés.
+
+PolyMorphisme : Loki se transforme en sa cible. Il reprend toute les compétences de sa cible avec des statistique augmenté.
+
+Bucher du traitre : Loki envoie sa cible au bucher et le brule violemment. Peut tuer en un seul coup. (sauf bouclier)
+
 
 ### Carte
 
@@ -1112,18 +1581,121 @@ Si le joueur ne possède plus de carte que faire ???(faire passer son tour ? Gam
 
 ## Installation de l'environnement Code
 
-Nous avons utilisé un ensemble de technologies Javascript grâce à npm pour concevoir l'environnement de notre application avec React et Express le module de NodeJS.
+Nous avons utilisé le package create-new-app dans npm pour concevoir l'environnement de notre application avec React et Express le module de NodeJS. https://www.npmjs.com/package/create-new-app
 
-## Conception de l'architecture MERN.
+## Conception de l'architecture de l'application.
 
-MERN Stack est un ensemble de technologies Javascript utilisé pour un déploiement rapide des applications Web. MERN comprend 4 technologies, MongoDB pour la gestion de base de données, le Framework Javascript Back End Express JS, React pour le front et le serveur Javascript NodeJS. Le Stack MERN est conçu pour rendre le processus de développement fluide et facile.
+### Conception du "Map Navigator"
 
-ReactJS est devenu une référence incontournable pour le développement d’interfaces utilisateurs riches et dynamiques avec une communauté qui compte des millions d'utilisateurs.
+Pour concevoir la carte sur laquel nous naviguerons pour chaque royaume, nous nous inspirons (voire utiliserons) un générateur de map du jeux Slay the spire basé sur une approche procédurale.
+
+exemple + sources : ![image alt](https://user-images.githubusercontent.com/59264002/75630736-89e6a080-5c30-11ea-86ed-3f00e3631e48.gif)
+
+Le générateur utilise deux principes mathématiques. L'échantillonage par la loi de Poisson ainsi que la Triangulation de Delaunay. L'échantillonage permet de générer des points dans un espace données en fonction de la densité demandé et de la dimension de l'espace. La triangulation de Delaunay est une propriété qui permet à un triangle (qui sera représenté par trois points de l'échantillonage effectués) de ne pas "s'écraser".
+
+La triangulation fait contenir tout ses triangles dans son espaces dans un cercle circonscrit de diametre données. Ce qui permet la minimisation des angles d'un triangle pour obtenir des triangles non écrasés.
+
+Ensuite avec le pathfinder de base ngraph.path (https://github.com/anvaka/ngraph.path) qui permet de retrouver tout les chemin du point de base vers le point d'arrivée, nous pouvons enlever les points non utilisés par le générateur et crée un carte cohérente et connexe.
+
+### Déroulement du jeu + Conception de gestion des données
+
+Nous allons préciser maintenant les actions possibles ainsi que l'utilisation de l'interface utilisateur et de la base de données de l'application.
+
+L'ecran d'acceuil du jeu sera un ecran de connexion via email. Les identifiants d'un joueurs seront stockés sur une base de données MongoDB avec un email et un mot de passe chiffré.
+
+L'utilisateur pourra s'inscrire et aussi se connecter.
+
+Une fois connectée vous pourrez reprendre une partie commencée qui a été sauvegarde (charger une partie) ou commencer une nouvelle partie. Nous pourrons (??) charger une partie qui a été sauvegarder dans la base de données relié au joueurs.
+
+#### Nouvelle Partie
+
+Quand une nouvelle partie est crée, le joueurs choisit un des personnages principal, et peux ainsi choisir soit : un deck predefini par personnage. Soit un deck personnalisé à faire par l'utilisateur (30 cartes minimum). Les données des personnages ainsi que des cartes seront stockés directement en Javascript (typescript) quand un joueur choisira un personnage, il appellera seulement les objets liées au personnage ou au carte.
+
+Le joueur arrive donc sur la carte du jeux globale
+
+![image alt](https://cdn.shopify.com/s/files/1/2258/7581/files/Yggdrasil-arbre-monde_c43fc579-3209-45a5-ab8c-022c52c85875.jpg?v=1587028980)
+
+Il peut choisir un des mondes débloqué (au debut monde du "bas") puis tombera sur une map généré par le processus décrit precedemment.
+
+#### Salle de repos + achat
+
+Les salle de repos permette d'utiliser des objets hors des combats ainsi que de s'auvegarder. Un marchand vend egalement des objets ou des armes utilisables pendant un combat contre de l'argent. On peut également vendre des objets que l'on possède contre de l'argent.
+
+#### Salle de combat normal + salle de combat sous boss.
+
+Les salles de combat normal et de sous boss sont similaire. Il y aura au maximum 4 monstres de niveau faible à moyen contre le joueurs. Vous piochez 5 cartes et le combat commence. Il se termine lorsque un des deux camps n'a plus de combattant. En tuant des ennemis, ces derniers peuvent relacher des objets ou des cartes que vous pouvez récuperer. Après avoir terminer une salle vous pourrez récupérer une nouvelle carte parmi un choix de cartes.
+
+Chaque ennemis relache de l'argent utilisable dans les salles de repos.
+
+#### Salle de Boss.
+
+Les salles de boss contiennent un monstres puissant accompagnés de 3 monstres faible ou moyen. Si le joueurs termine une salle de boss, il a une chance de récupérer la carte invocatrice de ce boss dans son deck.
+
+
+#### Salle de checkpoint
+
+Une salle de checkpoint permet seulement de sauvegarder sa progression. On ne peut utiliser des objets ni en vendre/acheter.
+
+#### Diagramme des acteurs in-games
+
+Voici un diagramme UML représentant les classes qui sont en actions durant le jeux.
+
+Character represente un personnage quelconque dans le jeux. Il peut etre un monstre ou un personnage principal.
+
+Hero represente les personnages controlable par le joueurs.
+
+Monster represente les personnages controllés par l'ordinateur. Il est généralement un ennemi mais peut aussi etre un alliés (créature invoqué, aide)
+
+![image alt](https://i.ibb.co/DwkC5Lg/Umldiag.png)
+
+#### Gestion des données
+
+Les capacités ainsi que les cartes des personnages principaux seront stockés dans du code typescript. Mais les logs des utilisateurs seront stockés dans une base de données MongoDB.
+
+Les personnages/cartes possèderont les attributs et les methodes données dans le diagramme ci dessus.
+
+#### Sprite/Aspect Graphique.
+
+Nous sommes toujours en recherche active de sprte notamment sur les site http://www.videogamesprites.net, https://www.spriters-resource.com/ et https://craftpix.net
+
+Nous avons trouver des sprite générique pour les monstres de bases ainsi que pour des cartes de bases. Nous avons également trouvés des sprite de Age of Mythology sur les dieux nordique.
+
+#### Aspect Multijoueur (Optionnel/À développer)
+
+Pour pouvoir développer un mode multijoueur. Il faut définir celui-c dans le cadre de l'application.
+
+##### Mode coopération : 
+
+Deux joueurs peuvent rejoindre une partie commune (nouvelle ou en cours) pour jouer à deux face au ennemis.
+
+##### Mode duel : 
+
+Deux joueurs peuvent s'affronter avec leur profil courant et leur personnages choisis. C'est un mode 1v1 ou on peut personnaliser les règles (nombre de round etc...)
+
+##### Technologies : 
+
+Les framework/bibliothèques gérant les applications en temps réels et le jeu multijoueurs en Node.js sont Socket.io ou Colyseus
+
+Socket.io est un framework open-source gérant les applications temps réelles donc les interactions entres utilisateurs. Socket.io permet de gerer l'actualisation ainsi que l'envoi automatiquement d'update entre serveur et client ce qui facilite le développement d'une application temps réel.
+https://socket.io
+
+Colyseus gèrent les sessions multi-utilisateur ainsi que les applications en temps réel.
+https://docs.colyseus.io/getting-started/javascript-client/
+
+Ces deux supports sied parfaitement au developpement d'un jeux multijoueurs. 
+
 
 ## Sources
 
-https://greensock.com/gsap/ : Greensock est une bibliothèque d'animation en Javascript qui va nous permettre de gerer le coter "Jeux video" de manière plus poussive
+https://greensock.com/gsap/ : Greensock est une bibliothèque d'animation en Javascript qui va nous permettre de gerer le côté "Jeu vidéo" de manière plus poussive
 
-https://maybelatergames.co.uk/tools/slaythespire/tierlist/cards/ironclad : Liste des cartes du jeux slay the spire.
+https://maybelatergames.co.uk/tools/slaythespire/tierlist/cards/ironclad : Liste des cartes du jeu slay the spire.
 
-https://shopify.github.io/draggable/ : Une Bibliothèque qui permet d'utiliser le drag&drop (notamment pour utiliser les cartes dans le jeux) en Javascript
+https://shopify.github.io/draggable/ : Une Bibliothèque qui permet d'utiliser le drag&drop (notamment pour utiliser les cartes dans le jeu) en Javascript
+
+
+https://github.com/yurkth/stsmapgen : Un générateur de carte procédurale
+
+https://socket.io : Gestionnaire d'application en temps réel.
+
+https://docs.colyseus.io/getting-started/javascript-client/ : Framework de session multi-utilisateur
