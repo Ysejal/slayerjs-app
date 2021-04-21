@@ -243,7 +243,7 @@ Contrecoup : Brunehilde ne peut activer "Halo" pendant 4 tour, ses points "halo"
 
 ### Carte du monde : Yggdrasil
 
-![image alt](https://thumbs.dreamstime.com/z/arbre-du-monde-de-vecteur-d-%C3%A2%E2%82%AC-de-yggdrasil-de-la-mythologie-scandinave-95205217.jpg "Yggdrasil")
+![image alt](https://i.pinimg.com/originals/d8/36/8e/d8368ea201efac4437f1a13302fe3f95.png "Yggdrasil")
 
 Le premier monde "accessible" sera le monde du "bas" constitué de Helheim, Svartalheim et Muspeilheim
 
