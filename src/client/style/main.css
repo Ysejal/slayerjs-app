@@ -1,0 +1,18 @@
+h1 {
+  color: rgb(116, 54, 13);
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.wrapper {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: #ddd;
+}
+
+#canvasBox {
+  text-align: center;
+}

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import './app.css';
-import TurtleImage from './turtle.png';
+import './style/main.css';
+
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        {<h1>{`Slayer`}</h1>}
-        <img src={TurtleImage} alt="turtle" width="80%" />
+        {<h1>{`Niveau XX - _Helheim_ - !!Work in progress!!`}</h1>}
       </div>
     );
   }
