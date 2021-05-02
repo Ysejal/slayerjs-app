@@ -6,9 +6,12 @@ h2 {
   color: black;
 }
 
-body {
+html,
+body{
   text-align: center;
-  margin: auto;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 button {

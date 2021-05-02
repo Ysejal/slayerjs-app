@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
-import {
-  Route,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
-
+import './css/app.css';
 import SweetAlert from 'react-bootstrap-sweetalert';
-
-import '../css/app.css';
-import bgImage from '../images/bg.png';
-import Bar from '../components/bar';
+import bgImage from './images/bg.png';
+import Bar from './components/bar.jsx';
 
 import {Row, Col} from 'antd';
 import 'antd/dist/antd.css'
 
 const divStyle = {
-  width: "100%",
-  height: "850px",
   color: 'black',
   backgroundImage: 'url(' + bgImage + ')',
+  backgroundSize:'cover',
 };
 
 const buttonStyle = {
@@ -27,7 +19,6 @@ const buttonStyle = {
   alignItems:'center', 
   height: '100vh',
 };
-
 
 export default class App extends Component {
 
