@@ -21,8 +21,50 @@ button {
   height: 30px;
   width: 200px;
   color: white;
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
+  border-radius: 50%;
+  /* border-top-right-radius: 9999px;
   border-bottom-left-radius: 9999px;
-  border-bottom-right-radius: 9999px;
+  border-bottom-right-radius: 9999px; */
+}
+
+#btn1 {
+  border: 0;
+  background: url('../images/endTurnButton.png');
+  background-size: 100%;
+  border-radius: 0%;
+  color: white;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  bottom: 215px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn1:hover {
+	background: url('../images/endTurnButtonGlow.png');
+  background-size: 100% 100%;
+}
+
+#btn2 {
+  border: 0;
+  background: url('../images/cancel-button.png');
+  background-size: 100%;
+  border-radius: 0%;
+  color: white;
+  width: 267px;
+  height: 80px;
+  position: absolute;
+  bottom: 220px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn2:hover {
+  background: url('../images/cancel-buttonGlow.png');
+  background-size: 100% 100%;
 }
