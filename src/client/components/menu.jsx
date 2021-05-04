@@ -21,14 +21,14 @@ export default class Menu extends Component {
     this.props.history.push('/game');
   }
 
-  quitClick() {
+  loginClick() {
 
   }
 
   render() {
     return (
       <div>
-        <img src={TitreBar} alt="turtle" style={{marginTop: '100px',}}/>
+        <img src={TitreBar} alt="turtle" style={{marginTop: '100px',} }/>
         <div style={buttonStyle}>
           <Col>
             <Row>
@@ -44,8 +44,8 @@ export default class Menu extends Component {
             </Row>
             <br />
             <Row>
-              <button onClick={()=>this.quitClick()}>
-                {'Quit'}
+              <button onClick={()=>this.loginClick()}>
+                {'login'}
               </button>
             </Row>
           </Col> 
