@@ -1,0 +1,30 @@
+@import "../../../design/constants.scss";
+
+.combatZone{
+    width: 100vw;
+    height: $combatZoneHeight;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(30,28,66,1) 0%, rgba(172,172,172,1) 100%);
+}
+
+.partyHealthZone{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.heroContainer{
+    display: flex;
+    width: 40vw;
+    height: auto;
+    justify-content: center;
+}
+
+.foeContainer{
+    display: flex;
+    width: 40vw;
+    height: auto;
+    justify-content: center;
+}

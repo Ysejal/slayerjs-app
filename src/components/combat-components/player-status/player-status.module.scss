@@ -1,0 +1,91 @@
+@import "../../../design/constants.scss";
+
+.playerStatusContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    height: $playerStatusBar;
+    
+    background-color: #424542;
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.playerHealth{
+    color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.playerGold{
+    color: gold;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.playerDefense{
+    color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.healthBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.healthEmoji{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.curse{
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+}
+
+.healthBorder {
+    margin-top: 4px;
+    height: 2vh;
+    width: 20vw;
+    display: flex;
+
+    border-radius: 1px;
+    box-shadow: 
+        1px 1px #e7dfe7,
+        -1px -1px #e7dfe7,
+        1px -1px #e7dfe7,
+        -1px 1px #e7dfe7,
+        0 -1px #9c9a9c,
+        -1px 0 #7b757b,
+        0 1px #424542;
+}
+.healthBar {
+    height: 2vh;
+    width: 20vw;
+    background-color: darkred; // 100% health
+}
+
+.healthIndicator {
+    height: 2vh;
+    width: 20vw;
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}

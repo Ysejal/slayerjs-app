@@ -1,0 +1,38 @@
+@import "../../../design/constants.scss";
+
+
+.drawZone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    font-size: 12px;
+    margin-left: 3vw;
+
+}
+
+.energy {
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+}
+
+.deck {
+    color: white; 
+    text-align: center;
+    margin: 10px;
+
+}
+
+.devButton{
+    color: white; 
+    border: none;
+    background-color: darkslategrey;
+    transition-duration: 0.3s;
+}
+
+.devButton:hover{
+    background-color: black;
+}

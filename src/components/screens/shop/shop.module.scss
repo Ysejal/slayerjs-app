@@ -1,0 +1,36 @@
+@import "../../../design/constants.scss";
+
+
+.cardButton {
+    box-shadow: 5px 7px 11px 0px rgba(0, 0, 0, 0.48);
+    align-items: flex-start;
+    padding: 1px;
+    border-width: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: #828282bd;
+
+    font-size: 8px;
+    font-family: $gameFont;
+    user-select: none;
+}
+
+.screenContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $mainBackgroundColor;
+    color: white;
+    font-weight: bold;
+}

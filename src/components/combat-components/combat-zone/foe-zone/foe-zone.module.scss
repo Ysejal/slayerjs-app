@@ -1,0 +1,119 @@
+@import "../../../../design/constants.scss";
+
+
+.telegraph{
+    font-size: 10px;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+
+}
+
+.foeTitle{
+    display: flex;
+    justify-content: center;
+
+    font-size: 12px;
+    color: black;
+}
+
+// background art
+// https://i.imgur.com/XxrREar.png
+
+.foeZone {
+    height: $combatZoneHeight;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+.foe {
+    height: 35vh;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+// TODO: redo this 
+.foeImg {
+    height: 25vh;
+    width: 15vw;
+    margin-left: 15px;
+}
+
+.foeHealthBorder {
+    margin-top: 4px;
+    height: 2vh;
+    width: 20vw;
+    display: flex;
+
+    border-radius: 1px;
+    box-shadow: 
+        1px 1px #e7dfe7,
+        -1px -1px #e7dfe7,
+        1px -1px #e7dfe7,
+        -1px 1px #e7dfe7,
+        0 -1px #9c9a9c,
+        -1px 0 #7b757b,
+        0 1px #424542;
+}
+.foeHealthBar {
+    height: 2vh;
+    width: 20vw;
+    background-color: darkred;     
+}
+
+.foeHealthIndicator {
+    height: 2vh;
+    width: 20vw;
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -3vw;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.stunCounter{
+    opacity: .85;
+    z-index: 100;
+}
+
+.monsterContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.healthBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.healthEmoji{
+    font-size: 15px;
+    margin: 10px;
+}
+.defenseEmoji{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+}
+.defense{
+    font-size: 12px;
+    margin: 5px;
+}
