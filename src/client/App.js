@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './css/app.css';
+// import '../App.less';
 import SweetAlert from 'react-bootstrap-sweetalert';
 import bgImage from './images/bg.png';
 import Bar from './components/bar.jsx';

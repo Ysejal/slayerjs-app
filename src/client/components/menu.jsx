@@ -28,7 +28,7 @@ export default class Menu extends Component {
   render() {
     return (
       <div>
-        <img src={TitreBar} alt="turtle" style={{marginTop: '100px',} }/>
+        {/* <img src={TitreBar} alt="turtle" style={{marginTop: '100px',} }/> */}
         <div style={buttonStyle}>
           <Col>
             <Row>
