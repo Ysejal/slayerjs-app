@@ -13,7 +13,7 @@ const Card = (props) => {
           )}
         </div>
 
-        <div className={styles.cardArt}>{props.cardData.art}</div>
+        <div className={styles.cardArt}><img src={props.cardData.art} alt={props.cardData.name}/></div>
 
         <div className={styles.cardDescription}>
           {props.cardData.description}

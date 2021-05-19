@@ -95,7 +95,11 @@
 .cardArt{
     width: 100%;
     height: 35%;
-    background-color: lightcoral;
+   
+}
+.cardArt img{
+    max-width: 62%;
+    height: auto;
 }
 
 .titleSection {
