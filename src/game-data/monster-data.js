@@ -3,8 +3,8 @@ export const monsters = [
         name: 'Slime',
         aligment: [],
         aligmentDuration: [],
-        health: 36,
-        total: 36,
+        health: 1,
+        total: 1,
         defense: 0,
         gold: 15,
         telegraphing: { 
@@ -36,11 +36,47 @@ export const monsters = [
         ]
     },
     {
+        name: 'Dwarf',
+        aligment: [],
+        aligmentDuration: [],
+        health: 40,
+        total: 40,
+        defense: 5,
+        gold: 13,
+        telegraphing: { 
+                name: ['Wall-Breaker'],
+                target: ['hero'],
+                effect: ['damage'],
+                power: [8]
+            },
+        nMoves: 3,
+        moves: [
+            {
+                name: ['Wall-Breaker'],
+                target: ['hero'],
+                effect: ['damage'],
+                power: [8]
+            },
+            {
+                name: ['Reheal','Wall-Breaker'],
+                target: ['self','hero'],
+                effect: ['heal','damage'],
+                power: [10, 6]
+            },
+            {
+                name : ['Reheal'],
+                target: ['self'],
+                effect: ['heal'],
+                power: [15]
+            }
+        ]
+    },
+    {
         name: 'Nul',
         aligment: [],
         aligmentDuration: [],
-        health: 36,
-        total: 36,
+        health: 1,
+        total: 1,
         defense: 0,
         gold: 25,
         telegraphing: { 
@@ -69,8 +105,8 @@ export const monsters = [
         name: 'Enforcer',
         aligment: [],
         aligmentDuration: [],
-        health: 36,
-        total: 36,
+        health: 1,
+        total: 1,
         defense: 5,
         gold: 25,
         telegraphing: { 
@@ -99,8 +135,8 @@ export const monsters = [
         name: 'Fire',
         aligment: [],
         aligmentDuration: [],
-        health: 40,
-        total: 40,
+        health: 1,
+        total: 1,
         defense: 0,
         gold: 30,
         telegraphing: { 
@@ -128,8 +164,8 @@ export const monsters = [
         name: 'Stone',
         aligment: [],
         aligmentDuration: [],
-        health: 80,
-        total: 80,
+        health: 1,
+        total: 1,
         defense: 5,
         gold: 40,
         telegraphing: { 
@@ -162,8 +198,8 @@ export const monsters = [
         name: 'Eye',
         aligment: [],
         aligmentDuration: [],
-        health: 100,
-        total: 100,
+        health: 1,
+        total: 1,
         defense: 0,
         gold: 100,
         telegraphing: { 

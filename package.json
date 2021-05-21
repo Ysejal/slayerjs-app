@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.15.6",
     "konva": "^7.0.5",
-    "node-sass": "4.12.0",
+    "node-sass": "^4.12.0",
     "poisson-disk-sampling": "^2.2.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
