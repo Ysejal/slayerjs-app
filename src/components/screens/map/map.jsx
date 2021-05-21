@@ -288,9 +288,9 @@ const MapScreen = () => {
             <div style={{display:'flex', flexDirection:'row',}}>
               {currentField.fieldPathEvents.map( (field, index) =>
                 <button key={index} onMouseEnter={()=>playMenuSound()}  className={styles.pathButton} onClick={() => onPathSelection(field)}>
-                    <h2>{field.fieldEvent}</h2>
+                    <h1>{field.fieldEvent}</h1>
                     {field.fieldPathEvents.map( (e, index) => 
-                      <div key={index} style={{display:'flex', margin:'2px', opacity:'.5'}}>
+                      <div key={index} style={{display:'flex', margin:'2px', opacity:'50%', fontSize:'20px'}}>
                         {e.fieldEvent}
                       </div>
                     )}
@@ -300,7 +300,7 @@ const MapScreen = () => {
           </div>
 
           <div className={styles.legendContainer}>
-            <div className={styles.legendTitle}>LEGEND:</div>
+            <div className={styles.legendTitle}>LEGEND</div>
             <div className={styles.legendItem}> FIGHT : ⚔️</div>
             <div className={styles.legendItem}> ELITE : ☠️</div>
             <div className={styles.legendItem}> BONFIRE : 🔥</div>

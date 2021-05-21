@@ -85,16 +85,16 @@ const FoeZone = () => {
 
                 <div className={styles.healthBarContainer}>
 
-                    <div className = {styles.defenseEmoji}>🛡 
+                    <div className = {styles.defenseEmoji}><h2>🛡 </h2>
                         <div className = {styles.defense}> 
                             {monster.defense} 
                         </div>
                     </div>
 
-                    <div className={styles.healthEmoji}>❤️</div>
+                    <div className={styles.healthEmoji}><h2>❤️</h2></div>
                     <div className = {styles.foeHealthBorder}>
                         <div className = {styles.foeHealthIndicator}> 
-                            {monster.health} / {monster.total} 
+                            {monster.health} / {monster.total}
                         </div>
                         <div id="foeHealthBar"> </div>
                     </div>

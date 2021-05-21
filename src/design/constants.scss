@@ -1,6 +1,7 @@
 // Font
 $font: cursive, sans-serif;
 $gameFont: 'Press Start 2P';
+// $danceFont: 'Dancing Script', sans-serif;
 
 
 $phi: 1.6180339887498948482;
@@ -10,7 +11,7 @@ $screenHeightDesktop: 50%;
 $screenWidthDesktop: 75%;
 
 // Mobile: 
-$screenHeight: 100%;
+$screenHeight: 100vh;
 $screenWidth: 100%;
 
 //  NOTE: playerStatusBar + combatZoneHeight + playerZoneHeight = 100vh

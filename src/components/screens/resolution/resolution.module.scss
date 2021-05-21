@@ -77,23 +77,22 @@
 
 .menuOption {
     width: auto;
-    height: 5vh;
-
+    width: 20vw;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     background: linear-gradient(to bottom, #6c6eb2 0%,#181870 64%,#000028 100%);
     border-radius: 8px;
-    border: 1px solid #424542;
-    
-    box-shadow: 4px 4px #e7dfe7,
-                -4px -4px #e7dfe7,
-                4px -4px #e7dfe7,
-                -4px 4px #e7dfe7,
-                0 -2px #9c9a9c,
-                -2px 0 #7b757b,
-                0 2px #424542;
+    border: 5px solid #b4b9b4;
+
+    overflow: auto;
+}
+
+.menuOption:hover{
+    background: linear-gradient(to bottom, #6c6eb2 0%,#080864 64%,#000028 100%);
+    border: 4px solid #1f5e77;
 }
 
 

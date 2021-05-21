@@ -53,6 +53,10 @@
     outline-color: slategray;
     background-color: $mainBackgroundColor;
     color: white;
+    height: 28vh;
+    width: 5vw;
+    align-items: center;
+
 
     &:active{
         outline: none;
@@ -66,24 +70,31 @@
 .legendContainer{
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    color: rgb(26, 25, 25);
+    width: 450px;
+    height: 350px;
     font-weight: bold;
-    outline: 2px;
-    outline-style: solid;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    margin: 20px;
+    margin-right: 20px;
+    background-image: url("../../../image/legend.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-size: larger;
 }
 
 .legendTitle{
+    font-family: $gameFont; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin-bottom: 1vh;
 }
 
 .legendItem{
     display: flex;
-    margin: 5px;
+    margin: 0.5vh;
 }
 
 .backButton {
@@ -94,7 +105,7 @@
     border-radius: 0%;
     color: white;
     width: 267px;
-    height: 60px;
+    height: 50px;
     left: 0;
     display: flex;
     align-items: center;

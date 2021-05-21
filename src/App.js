@@ -36,14 +36,14 @@ const App = () => {
   const handle = useFullScreenHandle();
 
   return (
-    <>
+    <div>
       <button onClick={handle.enter}>Enter fullscreen</button>
       <Music />
       <FullScreen handle={handle}>
         <Transition />
         <Screen />
       </FullScreen>
-    </>
+    </div>
   );
 };
 
