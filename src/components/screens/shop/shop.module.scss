@@ -11,8 +11,33 @@
     background: #828282bd;
 
     font-size: 8px;
-    font-family: $gameFont;
     user-select: none;
+}
+
+.button {
+    margin: 20px;
+    padding: 5px;
+
+    width: 20vw;
+    height: 40px;
+
+    font-size: 12px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to bottom, #6c6eb2 0%,#020227 64%,#000028 100%);
+    border-radius: 15px;
+    border: 5px solid #b4b9b4;
+
+    overflow: auto;
+}
+
+.button:hover{
+    background: linear-gradient(to bottom, #6c6eb2 0%,#080864 64%,#000028 100%);
+    border: 3px solid #1f5e77;
 }
 
 .screenContainer{

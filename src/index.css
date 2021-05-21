@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  cursor: url("./image/cursor.png"), auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

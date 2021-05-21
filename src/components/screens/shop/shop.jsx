@@ -11,6 +11,7 @@ import { updateScreen } from '../../../actions/screen';
 import { updateGameState } from '../../../actions/game_state';
 
 // import cardData from '../../../game-data/card-data'
+import coin from '../../../image/coin.png';
 
 import Card from '../../card'
 import { useShop, boughtCard } from '../../../actions/shop';
@@ -59,8 +60,8 @@ const ShopScreen = () => {
             
             <br />
             
-            <div style={{color:'gold'}}>
-                G: {player.gold}
+            <div style={{color:'gold', display:'flex', alignItems:'center'}}>
+                <img style={{marginRight:'5px'}} src={coin} alt="coin"/> {player.gold}
             </div>
 
             <br />
@@ -84,7 +85,7 @@ const ShopScreen = () => {
             <br />
 
             <div>
-                <button onClick={() => 
+                <button className={styles.button} onClick={() => 
                         {
                             dispatch( updateGameState({screen:'Map'}) );
                             dispatch( updateScreen('Map') ) 

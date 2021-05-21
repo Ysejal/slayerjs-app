@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./card.module.scss";
+import coin from '../../image/coin.png';
 
 const Card = (props) => {
   return (
@@ -13,14 +14,14 @@ const Card = (props) => {
         </div>
         <div className={styles.titleSection}>
           <div className={styles.title}><h3>{props.cardData.name}</h3></div>
-
-          {!props.combat && (
-            <div className={styles.cost}>G: {props.cardData.cost}</div>
-          )}
         </div>
 
         <div className={styles.cardArt}><img src={props.cardData.art} alt={props.cardData.name}/></div>
 
+        {!props.combat && (
+            <div className={styles.cost}><img style={{marginRight:'5px'}} src={coin} alt="coin"/> {props.cardData.cost}</div>
+          )}
+          
         <div className={styles.cardDescription}>
           {props.cardData.description}
         </div>

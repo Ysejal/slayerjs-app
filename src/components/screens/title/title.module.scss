@@ -43,6 +43,12 @@
     overflow: auto;
 }
 
+.menu:hover{
+    width: 30vw;
+    height: 25px;
+    background: linear-gradient(to bottom, #6c6eb2 0%,#2626ec 64%,#000028 100%);
+}
+
 .title{
     display: flex;
     align-items: center;

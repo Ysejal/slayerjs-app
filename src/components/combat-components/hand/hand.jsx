@@ -7,6 +7,11 @@ import cardStyle from '../../card/card.module.scss'
 import { usePlayer, applyCard } from '../../../actions/player';
 import Card from '../../card';
 
+import { updateScreen } from '../../../actions/screen';
+import { updateGameState } from '../../../actions/game_state';
+
+import { endTurn } from '../../../actions/combat'
+
 // function isMobile() {
 //     var check = false;
 //     (function(a){
@@ -26,9 +31,23 @@ const Cards = () =>{
         dispatch(applyCard(index))
     };
 
+    const onBttnClick = () =>  dispatch(endTurn());
+
     return(
         <div className={styles.handContainer}>
+            <button id="turnBttn" onClick={onBttnClick} className = {styles.devButton}>
+                [ END TURN ]
+            </button>
+
+            <button id="backBttn" onClick={() => 
+                      {
+                        dispatch(updateGameState({screen:'Title'}));
+                        dispatch(updateScreen('Title'));
+                      } }className = {styles.backButton}>
+                  [ SURRENDER ]
+            </button>
             {
+                
                 player.hand.map( (cardData, index) =>
                     <button key={index} className={cardStyle.cardButton} onClick={ () => onCardClick(index) }>
                         <div className={cardStyle.card}>
