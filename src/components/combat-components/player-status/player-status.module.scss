@@ -2,8 +2,7 @@
 
 .playerStatusContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: start;
+    justify-content:space-between;
     align-items: center;
 
     width: 100%;
@@ -15,6 +14,22 @@
     font-weight: bold;
 }
 
+.playerStatus{
+    display: flex;
+    align-items: center;
+}
+
+.playerGameStatus{
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+    
+}
+
+.playerGameStatus > img {
+    margin-left: 15px;
+    margin-right: 5px;
+}
 
 .playerHealth{
     color: red;

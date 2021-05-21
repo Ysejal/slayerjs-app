@@ -28,6 +28,15 @@ const HeroSelection = () => {
       <div className={styles.title}>CHOOSE YOUR HERO</div>
 
       <div className={styles.menuContainer}>
+
+        <button id="backBttn" onClick={() => 
+                      {
+                          dispatch(updateGameState({screen:'Title'}));
+                          dispatch(updateScreen('Title'));
+                      } }className = {styles.backButton}>
+                  [ BACK ]
+        </button>
+
         <div
           onClick={() => onCardClick("sword")}
           className={styles.heroContainer}

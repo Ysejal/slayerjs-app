@@ -111,6 +111,8 @@ function genPathLength(){
   return length
 }
 
+
+
 function genEvent( roll, fightOdds, elieteOdds, bonfireOdds, trialOdds, shopOdds){
   if ( roll < fightOdds){
     return {  fieldEvent: '⚔️' }
@@ -271,6 +273,14 @@ const MapScreen = () => {
         <PartyStatus />
 
         <div className={styles.screenBody}>
+          
+          <button id="backBttn" onClick={() => 
+                    {
+                        dispatch(updateGameState({screen:'HeroSelection'}));
+                        dispatch(updateScreen('HeroSelection'));
+                    } }className = {styles.backButton}>
+                [ BACK ]
+          </button>
 
           <div className={styles.mapContainer}>
             <h1>Choose a path:</h1>

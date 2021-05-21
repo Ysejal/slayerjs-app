@@ -7,8 +7,8 @@
     align-content: center;
     justify-items: center;
 
-    background: white;
-    color: black;
+    background-image: url('../../../image/bg.png');
+    background-size:cover;
 
     font-family: $gameFont;
 
@@ -46,6 +46,14 @@
 .title{
     display: flex;
     align-items: center;
-    height: 40vh;
+    height: 100px;
+    width: 700px;
     font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 200px;
+    background-image: url('../../../image/titreBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+
 }

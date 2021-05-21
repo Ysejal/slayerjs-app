@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from './player-status.module.scss'
 
 import { updatePlayer, usePlayer } from '../../../actions/player';
 import { useEffect } from 'react';
 
 import { useDispatch } from 'react-redux';
+import { useMap} from '../../../actions/map';
 
+
+import heart from '../../../image/Life1.png';
+import coin from '../../../image/coin.png';
+import defense from '../../../image/defense.png';
+import enemy from '../../../image/monster.png';
+import niveau from '../../../image/niveau.png';
+import Treasure from '../../../image/treasure.png';
 
 
 function updateHeroHealthBar(health, maxHealth){
@@ -25,6 +33,7 @@ function updateHeroHealthBar(health, maxHealth){
 const PlayerStatus = () =>{
 
     const player = usePlayer();
+    const currentField = useMap();
     const { health: heroHealth } = usePlayer();
     const { maxHealth: heroMaxHealth } = usePlayer();
 
@@ -56,27 +65,36 @@ const PlayerStatus = () =>{
     
     return(
         <div className = {styles.playerStatusContainer}>
-            <div className = {styles.playerGold}>
-                G: {player.gold}
-            </div>
-            
-            <div className = {styles.playerDefense}>
-                🛡 {player.defense}
-            </div>
+            <div className = {styles.playerStatus}>
+                <div className = {styles.playerGold}>
+                    <img src={coin} alt="coin"/> {player.gold}
+                </div>
+                
+                <div className = {styles.playerDefense}>
+                <img src={defense} alt="defense"/> {player.defense}
+                </div>
 
-            <div className={styles.healthBarContainer}>
-                <div className={styles.healthEmoji}>❤️</div>
-                <div className = {styles.healthBorder}>
-                    <div className = {styles.healthIndicator}> 
-                        {player.health} / {player.maxHealth} 
+                <div className={styles.healthBarContainer}>
+                    <div className={styles.healthEmoji}><img src={heart} alt="heart"/></div>
+                    <div className = {styles.healthBorder}>
+                        <div className = {styles.healthIndicator}> 
+                            {player.health} / {player.maxHealth} 
+                        </div>
+                        <div id="patyHealthBar"> </div>
                     </div>
-                    <div id="patyHealthBar"> </div>
                 </div>
             </div>
+            <div className = {styles.playerGameStatus}>
+                <img src={niveau} alt="niveau"/>{'Floor: ' + currentField.count}
+                <img src={Treasure} alt="Treasure"/>{'Treasure'}
+                {
+                    ( player.curseCount > 0 ) ? <div className={styles.curse}> Curses : {player.curseCount}</div> : <div></div>
+                }
+            </div>
 
-            {
-                ( player.curseCount > 0 ) ? <div className={styles.curse}> Curses : {player.curseCount}</div> : <div></div>
-            }
+            
+
+            
 
             
         </div>

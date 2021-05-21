@@ -85,3 +85,24 @@
     display: flex;
     margin: 5px;
 }
+
+.backButton {
+    border: 0;
+    background: url('../../../image/cancel-button.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0%;
+    color: white;
+    width: 267px;
+    height: 60px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .backButton:hover {
+    background: url('../../../image/cancel-buttonGlow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }

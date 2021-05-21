@@ -1,7 +1,7 @@
 import { createAction, handleActions } from "redux-actions";
 import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
-import {cards} from "../game-data/card-data"
+import {cards} from "../game-data/card-data";
 
 export const updateGameState = createAction('game_state/UPDATE_GAME_STATE');
 export const resolutionCards = createAction('game_state/RESOLUTION_CARDS');

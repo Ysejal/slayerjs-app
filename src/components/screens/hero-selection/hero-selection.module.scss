@@ -32,9 +32,8 @@
 .heroContainer {
     display: flex;
     height: 55vh;
-    width: 15vw;
-    background: black;
-    color: white;
+    width: 366px;
+    border: 0;
 
     flex-direction: column;
     align-items: center;
@@ -56,10 +55,18 @@
 }
 
 .heroImg {
-    width: 14vw;
-    height: 45vh;
+    width: 366px;
+    height: 260px;
     margin: 5px;
-    background: darkgreen;
+    background-image: url('../../../image/Ironclad.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heroImg:hover{
+    background-image: url('../../../image/Ironclad_bright.png');
+    width: 376px;
+    height: 270px;
 }
 
 .title{
@@ -69,3 +76,25 @@
     font-size: 20px;
     // text-align: center;
 }
+.backButton {
+    border: 0;
+    background: url('../../../image/cancel-button.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0%;
+    color: white;
+    width: 167px;
+    height: 60px;
+    position: absolute;
+    margin-top: 450px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .backButton:hover {
+    background: url('../../../image/cancel-buttonGlow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }

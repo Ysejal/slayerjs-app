@@ -24,25 +24,25 @@ const TitleScreen = () => {
 
     
     return (
-            <div className={titleStyle.game} >
+            
 
-                <div className={titleStyle.game} >
-                    <div className={titleStyle.title} >SLAYER</div>
-                    <div className={titleStyle.menu} onClick={() => 
-                            {
-                                dispatch(updateGameState({screen:'HeroSelection'}));
-                                dispatch(updateScreen('HeroSelection'));
-                            }
-                        }> NEW GAME </div>
-                    <div className={titleStyle.menu} onClick={() => 
-                            {
-                                dispatch(updateGameState({screen:'Map'}))
-                                dispatch(updateScreen('Map'))
-                            }
-                        }> MAP </div>
-                </div>
+        <div className={titleStyle.game} >
+            <div className={titleStyle.title} >SLAYER</div>
+            <div className={titleStyle.menu} onClick={() => 
+                    {
+                        dispatch(updateGameState({screen:'HeroSelection'}));
+                        dispatch(updateScreen('HeroSelection'));
+                    }
+                }> NEW GAME </div>
+            <div className={titleStyle.menu} onClick={() => 
+                    {
+                        dispatch(updateGameState({screen:'Map'}))
+                        dispatch(updateScreen('Map'))
+                    }
+                }> MAP </div>
+        </div>
 
-            </div>
+            
     );
 }
 

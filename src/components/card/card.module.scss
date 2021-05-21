@@ -21,7 +21,7 @@
 }
 
 .card {
-    height: 125px;
+    height: 145px;
     width: 100px;
 
     padding: 5px;
@@ -29,14 +29,16 @@
     position: relative;
 
     font-family: $gameFont;
-
+    background-image: url('../../image/card.png');
     background-color: #424242;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .cardFace {    
     position: absolute;
-    height: 125px;
+    height: 145px;
     width: 100px;
     font-size: 7px;
     overflow: hidden;
@@ -49,9 +51,12 @@
     &:hover{    
         position: absolute;
         transform: translate(0px, 25px);
-        height: 175px;
+        height: 220px;
         width: 150px;
         background-color: #424242;
+        background-image: url('../../image/card.png');
+        background-size: cover;
+        background-repeat: no-repeat;
         
         padding: 8px;
 
@@ -98,7 +103,7 @@
    
 }
 .cardArt img{
-    max-width: 62%;
+    width: 62%;
     height: auto;
 }
 
@@ -107,8 +112,9 @@
     justify-content: center;
     align-items: center;
     height: 10%;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(160, 140, 140);
     font-size: 6px;
+    // opacity: 50;
 }
 
 .title{
