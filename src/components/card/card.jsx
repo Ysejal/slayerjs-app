@@ -5,8 +5,14 @@ const Card = (props) => {
   return (
     <div>
       <div className={styles.cardFace}>
+        <div className={styles.cardType}>
+          <div className={styles.energy}>{props.cardData.energy}</div>
+          <div className={styles.requiredHero}>
+              {requiredHeroIcon(props.cardData.requiredHero)}
+          </div>
+        </div>
         <div className={styles.titleSection}>
-          <div className={styles.title}>{props.cardData.name}</div>
+          <div className={styles.title}><h3>{props.cardData.name}</h3></div>
 
           {!props.combat && (
             <div className={styles.cost}>G: {props.cardData.cost}</div>
@@ -20,11 +26,6 @@ const Card = (props) => {
         </div>
 
         <div className={styles.costRow}>
-          <div className={styles.energy}>⚡ {props.cardData.energy}</div>
-
-          <div className={styles.requiredHero}>
-            {requiredHeroIcon(props.cardData.requiredHero)}
-          </div>
         </div>
       </div>
     </div>

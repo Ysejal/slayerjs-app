@@ -10,7 +10,7 @@ const DrawZone = () =>{
         <div className={styles.drawZone}>
             
             <div id='heroEnergyText' className={styles.energy}>
-                <span style={{fontSize: '18px'}}>⚡</span> ENERGY: {player.energy}
+                <span style={{fontSize: '18px'}}>💪</span> ENERGY: {player.energy}
             </div>
             
             <div className={styles.deck}>

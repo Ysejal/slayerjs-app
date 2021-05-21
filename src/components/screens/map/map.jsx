@@ -36,7 +36,7 @@ function eventHandler(event, dispatcher){
       dispatcher( updateScreen('Combat') );
 
       break;
-    case '💢':
+    case '☠️':
       // TODO: make a elite fight ... so dispatch a elite...
       if ( rollDice(0,2) > 0 ){
         dispatcher(spawnMonster('Fire'));
@@ -61,7 +61,7 @@ function eventHandler(event, dispatcher){
       dispatcher(updateGameState({screen:'Trial'}));
       dispatcher(updateScreen('Trial'));
       break;
-    case '🕋':
+    case '💰':
       dispatcher(updateGameState({screen:'Shop'}));
       dispatcher(setupShop())
       dispatcher(updateScreen('Shop'));
@@ -117,13 +117,13 @@ function genEvent( roll, fightOdds, elieteOdds, bonfireOdds, trialOdds, shopOdds
   if ( roll < fightOdds){
     return {  fieldEvent: '⚔️' }
   }else if ( roll < elieteOdds ){
-    return {  fieldEvent: '💢' }
+    return {  fieldEvent: '☠️' }
   }else if ( roll < bonfireOdds ){
     return {  fieldEvent: '🔥' }
   }else if ( roll < trialOdds ){
     return {  fieldEvent: '❗' }
   }else if ( roll < shopOdds){
-    return {  fieldEvent: '🕋' }
+    return {  fieldEvent: '💰' }
   }else{
     return {  fieldEvent: '⚔️' }
   }
@@ -273,7 +273,7 @@ const MapScreen = () => {
         <PartyStatus />
 
         <div className={styles.screenBody}>
-          
+
           <button id="backBttn" onClick={() => 
                     {
                         dispatch(updateGameState({screen:'HeroSelection'}));
@@ -302,10 +302,10 @@ const MapScreen = () => {
           <div className={styles.legendContainer}>
             <div className={styles.legendTitle}>LEGEND:</div>
             <div className={styles.legendItem}> FIGHT : ⚔️</div>
-            <div className={styles.legendItem}> ELITE : 💢</div>
+            <div className={styles.legendItem}> ELITE : ☠️</div>
             <div className={styles.legendItem}> BONFIRE : 🔥</div>
             <div className={styles.legendItem}> TRIAL : ❗</div>
-            <div className={styles.legendItem}> SHOP : 🕋</div>
+            <div className={styles.legendItem}> SHOP : 💰</div>
             <div className={styles.legendItem}> BOSS : 👹</div>
           </div>
 
