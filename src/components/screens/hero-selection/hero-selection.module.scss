@@ -21,15 +21,15 @@
 
 .menuContainer {
     height: 80vh;
-    width: 95vw;
+    width: 80vw;
     margin: 5px;
 
     display: flex;
     flex-direction: row;
-    background-color: rgb(139, 135, 135);
+    background-color: $mainBackgroundColor;
     align-items: center;
     justify-content: space-evenly;
-    opacity: 75%;
+    opacity: 95%;
 }
 
 .heroContainer {
@@ -37,7 +37,7 @@
     height: 55vh;
     width: 366px;
     border: 0;
-
+    color: rgb(194, 53, 10);
     flex-direction: column;
     align-items: center;
     justify-content: center;

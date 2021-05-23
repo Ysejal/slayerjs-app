@@ -8,16 +8,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    border: 0;
     flex-direction: column;
     
     font-weight: bold;
     font-size: 20px;
-    color: white;
-
-    background-color: #131313;
+    color: rgb(94, 87, 87);
+    padding: 20px;
+    background-image: url("../../../image/bonfireOption.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $mainBackgroundColor;
     &:hover{
-        background-color: #303030;
+        background-image: url("../../../image/bonfireOption-hover.png");
     }
 }
 
@@ -29,22 +32,23 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    border: 0;
     flex-direction: column;
     
     font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: rgb(94, 87, 87);
+    padding: 20px;
     opacity: .5;
-
-    background-color: #131313;
-    &:hover{
-        background-color: #303030;
-    }
+    background-image: url("../../../image/bonfireOption.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $mainBackgroundColor;
 }
 
 .subtext{
     font-size: small;
+    color: white;
 }
 
 .screenContainer{
@@ -54,15 +58,19 @@
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url("../../../image/bg-bonfire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .screen{
     display: flex;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
     align-items: center;
     flex-direction: column;
     background-color: $mainBackgroundColor;
+    opacity: 97%;
 }
 
 .heroLineUp{

@@ -10,10 +10,11 @@
     flex-direction: column;
     align-items: center;
     font-family: $gameFont;
-
-    display: flex;
-    align-items: center;
     justify-content: center;
+
+    background-image: url("../../../image/bg-game.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menuContainer {
@@ -24,12 +25,14 @@
     display: flex;
     flex-direction: column;
     background-color: silver;
+    opacity: 87%;
 }
 
 .menuHeader {
     width: auto;
     height: 10vh;
     // margin: 5px;
+    color: #f6d82e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +57,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bodyText > img{
+    margin-left: 10px;
 }
 
 .rewardText{

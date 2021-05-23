@@ -9,20 +9,21 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background: black;
+    background-image: url("../../../image/bg.png");
 }
 
 .screen{
     display: flex;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
     background-color: $mainBackgroundColor;
     flex-direction: column;
+    opacity: 90%;
 }
 
 .screenHeader{
     display: flex;
-    width: 90vw;
+    width: 70vw;
     flex-direction: row;
 }
 
@@ -31,7 +32,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
 }
 
@@ -48,22 +49,20 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: 10px;
-    outline-style: solid;
-    outline-color: slategray;
+    margin: 20px;
+    height: 200px;
+    border: 0;
+    // outline-style: solid;
+    // outline-color: slategray;
     background-color: $mainBackgroundColor;
+    background-image: url("../../../image/map-stone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    height: 28vh;
-    width: 5vw;
     align-items: center;
 
-
-    &:active{
-        outline: none;
-    }
-
     &:hover{
-        outline-color: dodgerblue;
+        background-image: url("../../../image/map-stone-hover.png");
     }
 }
 
@@ -71,7 +70,7 @@
     display: flex;
     flex-direction: column;
     color: rgb(26, 25, 25);
-    width: 450px;
+    width: 380px;
     height: 350px;
     font-weight: bold;
     align-items: center;
@@ -104,8 +103,10 @@
     background-size: 100%;
     border-radius: 0%;
     color: white;
-    width: 267px;
-    height: 50px;
+    width: 167px;
+    height: 60px;
+    position: absolute;
+    margin-top: 450px;
     left: 0;
     display: flex;
     align-items: center;

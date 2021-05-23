@@ -274,18 +274,18 @@ const MapScreen = () => {
 
         <div className={styles.screenBody}>
 
-          <button id="backBttn" onClick={() => 
-                    {
-                        dispatch(updateGameState({screen:'HeroSelection'}));
-                        dispatch(updateScreen('HeroSelection'));
-                    } }className = {styles.backButton}>
-                [ BACK ]
-          </button>
-
           <div className={styles.mapContainer}>
-            <h1>Choose a path:</h1>
 
-            <div style={{display:'flex', flexDirection:'row',}}>
+            <button id="backBttn" onClick={() => 
+                      {
+                          dispatch(updateGameState({screen:'HeroSelection'}));
+                          dispatch(updateScreen('HeroSelection'));
+                      } }className = {styles.backButton}>
+                  [BACK]
+            </button>
+            <h1>Choose a path: </h1>
+
+            <div style={{display:'flex', flexDirection:'row', marginTop: '50px',}}>
               {currentField.fieldPathEvents.map( (field, index) =>
                 <button key={index} onMouseEnter={()=>playMenuSound()}  className={styles.pathButton} onClick={() => onPathSelection(field)}>
                     <h1>{field.fieldEvent}</h1>

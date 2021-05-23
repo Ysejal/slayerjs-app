@@ -12,6 +12,8 @@ import { updateMap } from '../../../actions/map';
 import cardStyle from '../../card/card.module.scss';
 import Card from '../../card';
 
+import coin from '../../../image/coin.png';
+
 
 function rollDice(min, max) {
     min = Math.ceil(min);
@@ -172,7 +174,6 @@ const ResolutionScreen = () => {
         );
     } else if ( !gameState.defeat ) {
         header = 'VICTORY'
-        body = `You found G: +` + gameState.loot + `\n`
         bttn = 'Skip'
         dispatch(updatePlayer({gold:gameState.playerGold + gameState.loot}))
 
@@ -181,11 +182,11 @@ const ResolutionScreen = () => {
                 <div className={styles.menuContainer}>
         
                     <div className={styles.menuHeader}>
-                        {header}
+                        <h1>{header}</h1>
                     </div>
         
                     <div className={styles.menuBody}>
-                        <div className={styles.bodyText}>{body}</div>
+                        <div className={styles.bodyText}>You found <img src={coin} alt="coin"/>: {gameState.loot+'\n'}</div>
 
                         <div className={styles.rewardText}> Choose A Card: </div>
 

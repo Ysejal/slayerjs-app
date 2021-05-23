@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url("../../../image/bg-trial.jpg");
 }
 
 
@@ -17,6 +18,7 @@
     align-items: center;
     flex-direction: column;
     background-color: $mainBackgroundColor;
+    opacity: 97%;
 }
 
 .trialTitle{
@@ -40,38 +42,58 @@
 .trialInfoContainer{
     display: flex;
     flex-direction: column;
-    height: 89vh;
-
+    width:40vw;
+    height: 70vh;
+    margin-top: 40px;
     align-items: center;
     justify-content: center;
+
+    background-image: url("../../../image/trialDescription.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .trialDescription{
-    width: 40vw;
-    height: 40vh;
-
-    outline-width: 2px;
-    outline: snow;
-    outline-style: solid;
+    width: 30vw;
+    height: 30vh;
     margin: 5px;
-
-    padding: 10px;
+    padding-top: 12vh;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size:larger;
 }
 
 .trialOptions{
     display: flex;
-    width: 41vw;
-    height: auto;
+    width: 25vw;
+    height: 10vh;
     margin: 2px;
-    background-color: #131313;
-    color: snow;
+    // background-image: url("../../../image/trialOption.png");
+    // background-repeat: no-repeat;
+    // background-size:contain;
+    border: 0;
+    color: rgb(243, 239, 239);
     margin: 5px;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid #b4b9b4;
+    background-color: rgb(98, 120, 148);
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trialOptions:hover{
+    background-color: rgb(62, 100, 150);
+    width: 26vw;
+    height: 11vh;
 }
 
 .trialOptionsContainer{
     display: flex;
     flex-direction: column;
     margin: 5px;
+    margin-bottom: 20px;
 }
 
 .resultWindow{
@@ -81,17 +103,19 @@
     align-items: center;
     flex-direction: column;
     position: absolute;
-    z-index: -100;
-    background-color: black;
-    opacity: 0;
 }
 
 .reultText{
     display: flex;
-    width: 90vw;
-    height: 90vh;
-    align-items: center;
     flex-direction: column;
-    position: absolute;
-    background-color: $mainBackgroundColor;
+    width:40vw;
+    height: 70vh;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../../../image/trialDescription.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10vh;
 }

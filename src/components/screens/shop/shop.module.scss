@@ -9,7 +9,6 @@
     margin-left: 2px;
     margin-right: 2px;
     background: #828282bd;
-
     font-size: 8px;
     user-select: none;
 }
@@ -46,16 +45,22 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url("../../../image/bg-shop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .screen{
     display: flex;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
+    font-family: $gameFont;
+    font-size:x-small;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: $mainBackgroundColor;
-    color: white;
+    color: rgb(206, 104, 9);
     font-weight: bold;
+    opacity: 97%;
 }
