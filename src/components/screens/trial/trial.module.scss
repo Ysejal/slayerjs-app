@@ -13,7 +13,7 @@
 
 .screen{
     display: flex;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
     align-items: center;
     flex-direction: column;
@@ -47,7 +47,7 @@
     margin-top: 40px;
     align-items: center;
     justify-content: center;
-
+    padding-bottom: 20px;
     background-image: url("../../../image/trialDescription.png");
     background-repeat: no-repeat;
     background-size: cover;
