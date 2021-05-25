@@ -47,6 +47,26 @@ import Trade from '../image/fulguro-punch.png';
 import Radiant from '../image/edged-shield.png';
 import Bash from '../image/shield-reflect.png';
 import Mend from '../image/meditation.png';
+import ADrain from '../image/Assymetric_Drain.png';
+import BExchange from '../image/Balance_Exchange.png';
+import BronzeShield from '../image/bronze_shield.png';
+import IronShield from '../image/iron_shield.png';
+import Determination from '../image/Determination.png';
+import SimpleDrain from '../image/Simple_drain.png';
+import ExtremeDrain from '../image/Extreme_drain.png';
+import DefenseTotal from '../image/Defense_total.png';
+import Reinforcement  from '../image/Reinforcement.png';
+import StaticShield from '../image/Static_shield.png';
+import ForcedRest from '../image/forced_rest.png';
+import StaticRest from '../image/Static_Rest.png';
+import UltraPower from '../image/Ultra_power.png';
+import OffensiveParade from '../image/Offensive_parade.png';
+import NifflePurge from '../image/Niffle_purge.png';
+import TotalCleanse from '../image/Total_cleanse.png';
+import MiraculousHit from '../image/Miraculous_Hit.png';
+import TotalCounter from '../image/Total_counter.png';
+import DefensivePurge from '../image/Defensive_purge.png'
+
 
 export const cards = [
     {   
@@ -379,5 +399,332 @@ export const cards = [
         description: "Remove all afflictions from deck / hand & discard piles. \nVOID",
         cost: 100,
     },
+
+    {
+		name : "Bronze Shield",
+		requiredHero : "a",
+		art : BronzeShield,
+		type : 'defense',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player'],
+			effect: ['defense'],
+			power : [8]
+		},
+		description : "Gain 8 armor",
+		cost : 60,
+
+
+	},
+	{
+		name : "Iron Shield",
+		requiredHero : "a",
+		art : IronShield,
+		type : 'defense',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player'],
+			effect: ['defense'],
+			power : [10]
+		},
+		description : "Gain 10 armor",
+		cost : 70,
+
+	},
+	{
+		name : "Balance Exchange",
+		requiredHero : "a",
+		art : BExchange,
+		type : 'defense',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','player'],
+			effect: ['damage','defense'],
+			power : [5,15]
+		},
+		description : "loose 5 health point gain 12 armor",
+		cost : 75,
+
+
+	},
+	{
+		name : "Determination",
+		requiredHero : "a",
+		art : Determination,
+		type : 'defense',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','player'],
+			effect: ['damage','defense'],
+			power : [10,30]
+		},
+		description : "loose 10 health point gain 30 armor",
+		cost : 100
+
+	},
+	{
+		name : "Simple Drain",
+		requiredHero : "a",
+		art : SimpleDrain,
+		type : 'attack',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','foe'],
+			effect: ['heal','damage'],
+			power : [5,5]
+		},
+		description : "Drain 5 HP from the ennemy",
+		cost : 70
+
+	},
+	{
+		name : "Asymetric Drain",
+		requiredHero : "a",
+		art : ADrain,
+		type : 'attack',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','foe','player'],
+			effect: ['heal','damage','defense'],
+			power : [3,5,5]
+		},
+		description : "Drain 5 HP and convert into 3HP and 5 armor",
+		cost : 65,
+
+	},
+	{
+		name : "Extrem Drain",
+		requiredHero : "a",
+		art : ExtremeDrain,
+		type : 'attack',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player','foe'],
+			effect: ['heal','damage'],
+			power : [15,20]
+		},
+		description : "Drain 20 HP and convert into 15HP",
+		cost : 110,
+
+	},
+	{
+		name : "Shield Drain",
+		requiredHero : "a",
+		art : StaticShield,
+		type : 'attack',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','foe'],
+			effect: ['defense','damage'],
+			power : [15,5]
+		},
+		description : "Drain 5HP into 15 armor",
+		cost : 90,
+
+	},
+	{
+		name : "Defense total",
+		requiredHero : "a",
+		art : DefenseTotal,
+		type : 'defense',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player','player'],
+			effect: ['defense','heal'],
+			power : [20,10]
+		},
+		description : "Gain 20 Armor and 10 Heal",
+		cost : 100,
+
+	},
+	{
+		name : "Reinforcement",
+		requiredHero : "a",
+		art : Reinforcement,
+		type : 'attack',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','foe'],
+			effect: ['defense','damage'],
+			power : [8,8]
+		},
+		description : "deal 8 damage and gain 8 armor",
+		cost : 80,
+
+	},
+	{
+		name : "Static Shield",
+		requiredHero : "a",
+		art : StaticShield,
+		type : 'attack',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['foe','player'],
+			effect: ['stun','defense'],
+			power : [1,15]
+		},
+		description : "Stun ennemy for one turn and gain 15 armor",
+		cost : 85,
+
+	},
+	{
+		name : "Forced Rest",
+		requiredHero : "a",
+		art : ForcedRest,
+		type : 'skill',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player','player','player','player'],
+			effect: ['heal','delayUtility','delayOffense','delayDefense'],
+			power : [35,2,2,2]
+		},
+		description : "heal for 30 HP but stun player during 2 turn",
+		cost : 90,
+
+	},
+	{
+		name : "Static Rest",
+		requiredHero : "a",
+		art : StaticRest,
+		type : 'skill',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','player','player','player'],
+			effect: ['heal','delayUtility','delayOffense','delayDefense'],
+			power : [20,1,1,1]
+		},
+		description : "heal for 20 HP but stun player for 1 turn",
+		cost : 100,
+
+	},
+	{
+		name : "Ultra Power",
+		requiredHero : "a",
+		art : UltraPower,
+		type : 'attack',
+		energy : 3,
+		exhaust : true,
+		action : {
+			target: ['player','player','player','foe'],
+			effect: ['delayUtility','delayOffense','delayDefense','damage'],
+			power : [1,1,1,25]
+		},
+		description : "deal 25 damages but stun for 1 turn",
+		cost : 90,
+
+
+	},
+	{
+		name : "Offensive Parade",
+		requiredHero : "a",
+		art : OffensiveParade,
+		type : 'attack',
+		energy :3,
+		exhaust :false ,
+		action : {
+			target: ['player','player'],
+			effect: ['damage',"defense"],
+			power : [12,5]
+		},
+		description : "deal 12 damage and gain 5 armor",
+		cost : 85,
+
+	},
+	{
+		name : "Niffle Purge",
+		requiredHero : "a",
+		art : NifflePurge,
+		type : 'skill',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player','player','foe'],
+			effect: ['mend','defense','stun'],
+			power : [0,10,1]
+		},
+		description : "Gain 10 armor and remove all affliction, stun ennemy for 1 turn",
+		cost : 130,
+
+	},
+	{
+		name : "Total Cleanse",
+		requiredHero : "a",
+		art : TotalCleanse,
+		type : 'skill',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','player'],
+			effect: ['mend','heal'],
+			power : [0,10]
+		},
+		description : "heal 10 HP and remove all affliction",
+		cost : 100,
+
+	},
+	{
+		name : "Miraculous Hit",
+		requiredHero : "a",
+		art : MiraculousHit,
+		type : 'attack',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['foe'],
+			effect: ['damage'],
+			power : [Math.floor(Math.random() *35) + 5]
+		},
+		description : "Hit an ennemy up to 35 damage",
+		cost : 120,
+
+	},
+	{
+		name : "Total Counter",
+		requiredHero : "a",
+		art : TotalCounter,
+		type : 'defense',
+		energy : 2,
+		exhaust : false,
+		action : {
+			target: ['player','foe'],
+			effect: ['defense','defenseTotal'],
+			power : [10,1],
+		},
+		description : "Gain 10 armor and deal damage equal to your armor",
+		cost : 100,
+
+	},
+	
+	{
+		name : "Defensive Purge",
+		requiredHero : "a",
+		art : DefensivePurge,
+		type : 'skill',
+		energy : 3,
+		exhaust : false,
+		action : {
+			target: ['player','player'],
+			effect: ['mend','defense'],
+			power : [0,10],
+		},
+		description : "Remove all affliction and gain 10 armor",
+		cost : 120,
+
+
+	},
+
 ];
 
