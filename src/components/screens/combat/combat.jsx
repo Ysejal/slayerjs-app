@@ -15,6 +15,7 @@ import CombatLog from "../../combat-components/combat-log";
 
 import { useMonster } from "../../../actions/monster";
 import { updateCombat } from "../../../actions/combat";
+import { useMap } from "../../../actions/map";
 
 import { updateGameState, resolutionCards } from "../../../actions/game_state";
 
@@ -24,6 +25,7 @@ const CombatScreen = () => {
   const { gold: loot } = useMonster();
   const { health: foeHealth } = useMonster();
   const player = usePlayer();
+  const currentField = useMap();
 
   const dispatch = useDispatch();
 
@@ -34,21 +36,28 @@ const CombatScreen = () => {
   useEffect(() => {
     // This block of code only executes when foeHealth changes
     if (foeHealth <= 0) {
-      dispatch(updateGameState({ loot: loot, playerGold: player.gold }));
-      dispatch(resolutionCards());
-      dispatch(
-        updateCombat({
-          combatLog: [
-            {
-              origin: "player",
-              description: "Start of combat",
-            },
-          ],
-        })
-      );
+      if(currentField.count == 10){
+        dispatch(updateGameState({floorComplete: true}))//quand on arrive au dernier floor
+        dispatch(updateGameState({ screen: "Resolution" }));
+        dispatch(updateScreen("Resolution"));
+      }
+      else{
+        dispatch(updateGameState({ loot: loot, playerGold: player.gold }));
+        dispatch(resolutionCards());
+        dispatch(
+          updateCombat({
+            combatLog: [
+              {
+                origin: "player",
+                description: "Start of combat",
+              },
+            ],
+          })
+        );
 
-      dispatch(updateGameState({ screen: "Resolution" }));
-      dispatch(updateScreen("Resolution"));
+        dispatch(updateGameState({ screen: "Resolution" }));
+        dispatch(updateScreen("Resolution"));
+      }   
     }
   }, [dispatch, foeHealth, loot, player.gold]);
 
