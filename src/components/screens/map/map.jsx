@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable default-case */
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import styles from "./map.module.scss";
@@ -102,10 +104,10 @@ function genPathLength(){
   let length = rollDice(1,4)
   let onesOdds = rollDice(0,50)
 
-  if (onesOdds == 0 && length == 1){
+  if (onesOdds === 0 && length === 1){
     return 1
   }
-  if (onesOdds < 1 && length == 3){
+  if (onesOdds < 1 && length === 3){
     return 4
   }
   return length
@@ -225,7 +227,7 @@ const MapScreen = () => {
     if (currentField.count === 0){
       dispatch(updateMap(startingField(3)))
     }
-  }, []);
+  }, [currentField.count, dispatch]);
   
 
   const onPathSelection = (field) => {

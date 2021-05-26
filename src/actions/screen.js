@@ -1,10 +1,6 @@
 import { createAction, handleActions } from "redux-actions";
 import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
-import { act } from "react-dom/test-utils";
-
-import {transition_style} from '../components/transition/transition.module.scss'
-
 
 export const updateScreen = createAction('screen/UPDATE_SCREEN');
 

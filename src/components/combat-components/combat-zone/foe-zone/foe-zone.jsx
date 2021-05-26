@@ -65,7 +65,7 @@ const FoeZone = () => {
 
     useEffect(() => {
         updateFoeHealthBar(foeHealth, foeMax)
-    }, [foeHealth]);
+    }, [foeHealth, foeMax]);
     
     return(
         <div className={styles.foeZone}>

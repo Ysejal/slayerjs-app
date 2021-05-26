@@ -1,9 +1,10 @@
+/* eslint-disable default-case */
 import { createAction, handleActions } from "redux-actions";
 import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 import { updateMonster } from './monster';
 
-import { updatePlayer, discardHand, drawCard, addCardDiscard, addAilgments, playCard } from './player';
+import { updatePlayer, discardHand, drawCard, addCardDiscard, addAilgments } from './player';
 import { afflictionCards } from '../game-data/affliction-card-data';
 
 export const updateCombat = createAction('combat/UPDATE_COMBAT');
@@ -178,7 +179,7 @@ export const endTurn = () => (dispatch, getState) => {
 
         for (let m = 0; m < telegraphing.effect.length; m++) {
 
-            if (telegraphing.effect[m] == "damage") {
+            if (telegraphing.effect[m] === "damage") {
 
                 strikeAnimation(monsterBody);
                 hitHero();
@@ -202,7 +203,7 @@ export const endTurn = () => (dispatch, getState) => {
                 }
 
 
-            } else if (telegraphing.effect[m] == 'defense') {
+            } else if (telegraphing.effect[m] === 'defense') {
 
 
                 const newDefense = telegraphing.power[m]
@@ -216,7 +217,7 @@ export const endTurn = () => (dispatch, getState) => {
                 setTimeout(function () {
                     dispatch(updateMonster({ defense: newDefense }))
                 }, 1100);
-            } else if (telegraphing.effect[m] == 'fatigue') {
+            } else if (telegraphing.effect[m] === 'fatigue') {
 
                 const moveMsg = monster.name + " used " + telegraphing.name[m] + ", adding " + telegraphing.power[m] + " fatigue cards to the partys deck."
 
@@ -228,7 +229,7 @@ export const endTurn = () => (dispatch, getState) => {
                     dispatch(addCardDiscard(afflictionCards.find(affliction => affliction.name === 'Fatigue')))
                 }
 
-            } else if (telegraphing.effect[m] == 'bleed') {
+            } else if (telegraphing.effect[m] === 'bleed') {
                 const moveMsg = monster.name + " used " + telegraphing.name[m] + ", adding " + telegraphing.power[m] + " bleed cards to the partys deck."
 
                 setTimeout(function () {
@@ -241,7 +242,7 @@ export const endTurn = () => (dispatch, getState) => {
                     dispatch(addCardDiscard(afflictionCards.find(affliction => affliction.name === 'Bleed')))
                 }
 
-            } else if (telegraphing.effect[m] == 'stun') {
+            } else if (telegraphing.effect[m] === 'stun') {
 
                 let heroList = ['mage', 'sword', 'shield']
                 let target = getRandomRange(0, heroList.length)
@@ -258,14 +259,14 @@ export const endTurn = () => (dispatch, getState) => {
                     dispatch(logCombat({ origin: 'monster', description: moveMsg }), 1000)
                 }, 1000);
 
-            } else if (telegraphing.effect[m] == 'idle') {
+            } else if (telegraphing.effect[m] === 'idle') {
                 state.monster.aligment.push('stun');
                 state.monster.aligmentDuration.push(telegraphing.power[m]);
                 const moveMsg = monster.name + " used " + telegraphing.name[m] + ", idling for " + telegraphing.power[m] + " turns."
                 setTimeout(function () {
                     dispatch(logCombat({ origin: 'monster', description: moveMsg }), 1000)
                 }, 1000);
-            } else if (telegraphing.effect[m] == 'heal') {
+            } else if (telegraphing.effect[m] === 'heal') {
                 if (monster.health + telegraphing.power[m] > monster.total) {
                     monster.health = monster.total;
                 } else {

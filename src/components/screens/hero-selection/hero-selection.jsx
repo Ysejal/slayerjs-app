@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import styles from "./hero-selection.module.scss";

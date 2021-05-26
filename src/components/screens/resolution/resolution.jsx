@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import styles from "./resolution.module.scss";
@@ -25,10 +26,10 @@ function genPathLength(){
     let length = rollDice(1,4)
     let onesOdds = rollDice(0,50)
   
-    if (onesOdds == 0 && length == 1){
+    if (onesOdds === 0 && length === 1){
       return 1
     }
-    if (onesOdds < 1 && length == 3){
+    if (onesOdds < 1 && length === 3){
       return 4
     }
     return length

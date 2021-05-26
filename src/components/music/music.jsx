@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useMusic, load, loop, mute, setTrack, updateVolume} from '../../actions/music';
 import { track_list } from '../../game-data/tracks';
@@ -72,7 +73,7 @@ const Music = () => {
             dispatch(setTrack(screenTrack));
             dispatch(load());
         }
-    },[screen])
+    },[dispatch, music.is_muted, screen])
 
     return(
         <>

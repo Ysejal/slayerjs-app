@@ -1,8 +1,9 @@
+/* eslint-disable default-case */
 import React from "react";
 import { useDispatch } from "react-redux";
 import styles from "./bonfire.module.scss";
 
-import { updateGameState, useGameState } from "../../../actions/game_state";
+import { updateGameState } from "../../../actions/game_state";
 import { updatePlayer, usePlayer, removeCurses } from "../../../actions/player";
 import { updateScreen } from "../../../actions/screen";
 import Hero from "../../hero";
