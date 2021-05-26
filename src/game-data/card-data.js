@@ -79,10 +79,11 @@ export const cards = [
         action : {
             target: ['foe','foe'],
             effect: ['damage','stun'],
-            power: [7+(Math.floor(Math.random() * 9) +1),Math.floor(Math.random()*2)]
+            power: [7+(Math.floor(Math.random() * 13) +1),Math.floor(Math.random()*2)]
 
         },
-        description : "Deal 7 + random damage up to 9, Stun ennemy for one turn"
+        description : "Deal 7 + random damage up to 9, Stun ennemy for one turn",
+        cost : 100
 
     },
     {
@@ -112,7 +113,8 @@ export const cards = [
             effect: ['damage'],
             power: [6]
         },
-        description : "Deal 6 damage"
+        description : "Deal 6 damage",
+        cost : 50
 
     },
     {
@@ -127,7 +129,8 @@ export const cards = [
             effect: ['damage'],
             power: [8]
         },
-        description : '8 damage'
+        description : '8 damage',
+        cost : 60
     },
      {
         name : "Quick Attack",
@@ -142,7 +145,8 @@ export const cards = [
             power: [6 + (Math.floor(Math.random() * 3)+1) ,3]
 
         },
-        description : "Deal 6 damage + random damage increase speed"
+        description : "Deal 6 damage + random damage increase speed",
+        cost : 60
 
 
     },
@@ -159,7 +163,8 @@ export const cards = [
             power : [7, 3, 1.2]
 
         },
-        description : "Deal 7 damage and bleed ennemy, increase attack"
+        description : "Deal 7 damage and bleed ennemy, increase attack",
+        cost :60
 
 
     },
@@ -176,7 +181,8 @@ export const cards = [
             power : [(Math.floor(Math.random() * 6)+1) + (Math.floor(Math.random() * 6)+1) + (Math.floor(Math.random() * 6)+1)]
 
         },
-        description : "Deal 3 times of random 1 to 4 damage"
+        description : "Deal 3 times of random 1 to 6 damage",
+        cost : 75
 
 
     },
@@ -194,7 +200,8 @@ export const cards = [
             power: [8 + (Math.floor(Math.random() * 4)+1),3]
 
         },
-        description : "Throw a fireball to all ennemies"
+        description : "Throw a fireball to all ennemies",
+        cost : 70
 
     },
     {   
@@ -210,7 +217,8 @@ export const cards = [
             power: [7,2]
 
         },
-        description : "Deal 7 damage plus poison ennemy"
+        description : "Deal 7 damage plus poison ennemy",
+        cost : 60
 
     },
     {   
@@ -226,7 +234,8 @@ export const cards = [
             power: [15,4,1]
 
         },
-        description : "Cast a Powerfull spell that exhaust the Hero + deal 15 damage"
+        description : "Cast a Powerfull spell that exhaust the Hero + deal 15 damage",
+        cost : 70
 
     },
     /*{   
@@ -290,7 +299,8 @@ export const cards = [
             power: [7,2]
 
         },
-        description : "Bite with a Frosted power dealing 7 damage"
+        description : "Bite with a Frosted power dealing 7 damage",
+        cost : 70
 
     },
     {   
@@ -306,7 +316,8 @@ export const cards = [
             power: [6,2]
 
         },
-        description : "Stun with an electrical discharge deal 6 damage"
+        description : "Stun with an electrical discharge deal 6 damage",
+        cost : 70
 
     },
     
@@ -323,6 +334,7 @@ export const cards = [
             power: [5]
         },
         description: "+5 Defense",
+        cost :60
     },
     {   
         name: 'Heal',
