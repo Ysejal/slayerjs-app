@@ -29,31 +29,40 @@ const HeroSelection = () => {
       <div className={styles.title}>CHOOSE YOUR HERO</div>
 
       <div className={styles.menuContainer}>
-
-        <button id="backBttn" onClick={() => 
-                      {
-                          dispatch(updateGameState({screen:'Title'}));
-                          dispatch(updateScreen('Title'));
-                      } }className = {styles.backButton}>
-                  [ BACK ]
+        <button
+          id="backBttn"
+          onClick={() => {
+            dispatch(updateGameState({ screen: "Title" }));
+            dispatch(updateScreen("Title"));
+          }}
+          className={styles.backButton}
+        >
+          [ BACK ]
         </button>
 
         <div
           onClick={() => onCardClick("sword")}
           className={styles.heroContainer}
         >
-          <div className={styles.heroTitle}> sword </div>
+          <div className={styles.heroTitle}> Sword Class </div>
           <div className={styles.heroImg}></div>
         </div>
 
-        {
-          /* 
-          <div onClick={() => choice("staff")} className={styles.heroContainer}>
-            <div className={styles.heroTitle}> staff </div>
-            <div className={styles.heroImg}></div>
-          </div>
-          */
-        }
+        <div
+          onClick={() => onCardClick("staff")}
+          className={styles.heroContainer}
+        >
+          <div className={styles.heroTitle}> Staff Class </div>
+          <div className={styles.staffImg}></div>
+        </div>
+
+        <div
+          onClick={() => onCardClick("shield")}
+          className={styles.heroContainer}
+        >
+          <div className={styles.heroTitle}> Shield Class </div>
+          <div className={styles.shieldImg}></div>
+        </div>
       </div>
     </div>
   );

@@ -61,13 +61,43 @@
     width: 366px;
     height: 260px;
     margin: 5px;
-    background-image: url('../../../image/Ironclad.png');
+    background-image: url('../../../image/sword.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.staffImg {
+    width: 366px;
+    height: 260px;
+    margin: 5px;
+    background-image: url('../../../image/staff.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shieldImg {
+    width: 366px;
+    height: 260px;
+    margin: 5px;
+    background-image: url('../../../image/shield.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .heroImg:hover{
-    background-image: url('../../../image/Ironclad_bright.png');
+    //background-image: url('../../../image/Ironclad_bright.png');
+    width: 376px;
+    height: 270px;
+}
+
+.staffImg:hover{
+    //background-image: url('../../../image/Ironclad_bright.png');
+    width: 376px;
+    height: 270px;
+}
+
+.shieldImg:hover{
+    //background-image: url('../../../image/Ironclad_bright.png');
     width: 376px;
     height: 270px;
 }

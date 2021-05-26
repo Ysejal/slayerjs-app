@@ -36,7 +36,7 @@ const CombatScreen = () => {
   useEffect(() => {
     // This block of code only executes when foeHealth changes
     if (foeHealth <= 0) {
-      if(currentField.count == 10){
+      if(currentField.count === 10){
         dispatch(updateGameState({floorComplete: true}))//quand on arrive au dernier floor
         dispatch(updateGameState({ screen: "Resolution" }));
         dispatch(updateScreen("Resolution"));
@@ -60,7 +60,7 @@ const CombatScreen = () => {
         dispatch(updateScreen("Resolution"));
       }   
     }
-  }, [dispatch, foeHealth, loot, player.gold]);
+  }, [currentField.count, dispatch, foeHealth, loot, player.gold]);
 
   useEffect(() => {
     if (player.health <= 0) {
