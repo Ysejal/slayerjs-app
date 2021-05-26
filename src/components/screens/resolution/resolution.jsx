@@ -138,11 +138,19 @@ const ResolutionScreen = () => {
     }
 
     const gameComplete = () => {
-        dispatch( updateGameState({resolutionCards:[]}) );
-        dispatch( updateGameState({screen:'Title'}) );
-        // dispatch( updateMap(startingField(3)));
-        // dispatch( updateScreen({count:0}));
+        
+        dispatch( updateGameState({
+            screen: 'title',
+            defeat: false,
+            floor: 0,
+            playerScore: 0,
+            resolutionCards: [],
+            floorComplete: false
+        }) );
+        dispatch(updateMap(startingField(3)));
+        dispatch(updateScreen({count:0}));
         dispatch( updateScreen('Title') );
+        
     }
 
     if ( gameState.floorComplete ) {
@@ -158,7 +166,7 @@ const ResolutionScreen = () => {
         
                     <div className={styles.menuBody}>
                         <div className={styles.bodyText}>
-                            Thanks for playing!
+                            <h1>Thanks for playing!🥳🥳</h1>
                         </div>
 
                     </div>
@@ -218,8 +226,8 @@ const ResolutionScreen = () => {
 
     } else {
         header = 'GAME OVER'
-        body = ''
-        bttn = 'Return to title screen'
+        body = 'You\'re dead!😵😵'
+        bttn = 'Return To Start'
         
         return (
             <div className={styles.gameScreen}>
@@ -230,7 +238,9 @@ const ResolutionScreen = () => {
                     </div>
 
                     <div className={styles.menuBody}>
-                        {body}
+                        <div className={styles.bodyText}>
+                            <h1>{body}</h1>
+                        </div>
                     </div>
 
                     <div className={styles.menuFooter}>
@@ -238,7 +248,7 @@ const ResolutionScreen = () => {
                                 {
                                     dispatch(updateMap(startingField(3)));
                                     dispatch(updateScreen({count:0}));
-
+                                    dispatch( updateGameState({defeat: false}) );
                                     dispatch(updateGameState({screen:'Title'}));
                                     dispatch(updateScreen('Title'));
                                 }

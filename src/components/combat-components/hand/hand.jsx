@@ -8,7 +8,8 @@ import { usePlayer, applyCard } from '../../../actions/player';
 import Card from '../../card';
 
 import { updateScreen } from '../../../actions/screen';
-import { updateGameState } from '../../../actions/game_state';
+import { updateGameState, resolutionCards } from '../../../actions/game_state';
+import { updateCombat } from "../../../actions/combat";
 
 import { endTurn } from '../../../actions/combat'
 
@@ -41,8 +42,22 @@ const Cards = () =>{
 
             <button id="backBttn" onClick={() => 
                       {
-                        dispatch(updateGameState({screen:'Title'}));
-                        dispatch(updateScreen('Title'));
+                        dispatch(updateGameState({ defeat: true }));
+                        dispatch(resolutionCards());
+
+                        dispatch(
+                            updateCombat({
+                            combatLog: [
+                                {
+                                origin: "player",
+                                description: "Start of combat",
+                                },
+                            ],
+                            })
+                        );
+
+                        dispatch(updateGameState({ screen: "Resolution" }));
+                        dispatch(updateScreen("Resolution"));
                       } }className = {styles.backButton}>
                   [ SURRENDER ]
             </button>
