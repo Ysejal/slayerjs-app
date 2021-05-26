@@ -503,7 +503,7 @@ export const cards = [
 		exhaust : false,
 		action : {
 			target: ['player','player','foe'],
-			effect: ['heal','defense','defense'],
+			effect: ['heal','defense','damage'],
 			power : [3,5,5]
 		},
 		description : "Drain 5 HP and convert into 3HP and 5 armor",
