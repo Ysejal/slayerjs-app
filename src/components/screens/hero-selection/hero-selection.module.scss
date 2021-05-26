@@ -35,7 +35,7 @@
 .heroContainer {
     display: flex;
     height: 55vh;
-    width: 366px;
+    width: 260px;
     border: 0;
     color: rgb(194, 53, 10);
     flex-direction: column;
@@ -58,7 +58,7 @@
 }
 
 .heroImg {
-    width: 366px;
+    width: 300px;
     height: 260px;
     margin: 5px;
     background-image: url('../../../image/sword.png');
@@ -67,7 +67,7 @@
 }
 
 .staffImg {
-    width: 366px;
+    width: 300px;
     height: 260px;
     margin: 5px;
     background-image: url('../../../image/staff.png');
@@ -76,7 +76,7 @@
 }
 
 .shieldImg {
-    width: 366px;
+    width: 300px;
     height: 260px;
     margin: 5px;
     background-image: url('../../../image/shield.png');
@@ -86,19 +86,19 @@
 
 .heroImg:hover{
     //background-image: url('../../../image/Ironclad_bright.png');
-    width: 376px;
+    width: 310px;
     height: 270px;
 }
 
 .staffImg:hover{
     //background-image: url('../../../image/Ironclad_bright.png');
-    width: 376px;
+    width: 310px;
     height: 270px;
 }
 
 .shieldImg:hover{
     //background-image: url('../../../image/Ironclad_bright.png');
-    width: 376px;
+    width: 310px;
     height: 270px;
 }
 
