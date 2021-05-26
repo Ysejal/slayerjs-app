@@ -16,15 +16,6 @@ const HeroDetail = () => {
                 <div className={styles.heroImg}></div>
             </div>
 
-            <div className={styles.heroContainer}>
-                <div className={styles.heroTitle}> shield </div>
-                <div className={styles.heroImg}></div>
-            </div>
-
-            <div className={styles.heroContainer}>
-                <div className={styles.heroTitle}> mage </div>
-                <div className={styles.heroImg}></div>
-            </div>
 
         </div>
     </div>
