@@ -42,7 +42,8 @@ const CombatScreen = () => {
         dispatch(updateScreen("Resolution"));
       }
       else{
-        dispatch(updateGameState({ loot: loot, playerGold: player.gold }));
+        dispatch(updateGameState({ loot: loot, playerGold: player.gold}));
+        dispatch(updatePlayer({ energy: 3, defense: 0 }));
         dispatch(resolutionCards());
         dispatch(
           updateCombat({
