@@ -10,7 +10,7 @@ import { useMap } from "../../../actions/map";
 import heart from "../../../image/Life1.png";
 import coin from "../../../image/coin.png";
 import defense from "../../../image/defense.png";
-import curse from "../../../image/curse.png";
+import curses from "../../../image/curses.png";
 import niveau from "../../../image/niveau.png";
 import Treasure from "../../../image/treasure.png";
 
@@ -83,11 +83,9 @@ const PlayerStatus = () => {
       <div className={styles.playerGameStatus}>
         <img src={niveau} alt="niveau" />
         {"Floor: " + currentField.count}
-        <img src={Treasure} alt="Treasure" />
-        {"Treasure"}
         {player.curseCount > 0 ? (
           <div className={styles.curse}>
-            <img src={curse} alt="curse" />
+            <img src={curses} alt="curses" />
             Curses : {player.curseCount}
           </div>
         ) : (

@@ -148,7 +148,6 @@ const ResolutionScreen = () => {
     if ( gameState.floorComplete ) {
 
 
-
         return (
             <div className={styles.gameScreen}>
                 <div className={styles.menuContainer}>
@@ -166,7 +165,7 @@ const ResolutionScreen = () => {
 
                     <div className={styles.menuFooter}>
                         <div className={styles.menuOption} onClick={() => gameComplete() }>
-                            Return To Title Screen
+                            Return To Start
                         </div>
                     </div>
         
