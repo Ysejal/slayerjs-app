@@ -192,7 +192,7 @@ export const cards = [
         requiredHero: 'a',
         art : Fire,
         type: 'attack',
-        energy: 3,
+        energy: 2,
         exhaust: false,
         action : {
             target: ['foe','foe'],
@@ -359,9 +359,9 @@ export const cards = [
         energy: 3,
         exhaust: true,
         action: {
-            target: ['foe', 'player'],
+            target: ['player', 'foe'],
             effect: ['damage', 'damage'],
-            power: [20, 7]
+            power: [7, 20]
         },
         description: "Deal 20 Damage, take 7 Damage \nVOID",
         cost: 70,
@@ -502,8 +502,8 @@ export const cards = [
 		energy : 2,
 		exhaust : false,
 		action : {
-			target: ['player','foe','player'],
-			effect: ['heal','damage','defense'],
+			target: ['player','player','foe'],
+			effect: ['heal','defense','defense'],
 			power : [3,5,5]
 		},
 		description : "Drain 5 HP and convert into 3HP and 5 armor",
@@ -582,9 +582,9 @@ export const cards = [
 		energy : 3,
 		exhaust : false,
 		action : {
-			target: ['foe','player'],
-			effect: ['stun','defense'],
-			power : [1,15]
+			target: ['player','foe'],
+			effect: ['defense','stun'],
+			power : [15,1]
 		},
 		description : "Stun ennemy for one turn and gain 15 armor",
 		cost : 85,

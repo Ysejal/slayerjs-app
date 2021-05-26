@@ -1,8 +1,13 @@
+
+import Curse from "../image/cursed-star.png";
+import Bleed from "../image/bleeding-wound.png";
+import Fatigue from "../image/oppression.png"
+
 export const afflictionCards = [
     {
         name: 'Curse',
         requiredHero: 'a',
-        art: '<art url>',
+        art: Curse,
         type: 'curse',
         energy: 0,
         exhaust: false,
@@ -16,7 +21,7 @@ export const afflictionCards = [
     {   
         name: 'Fatigue',
         requiredHero: 'a',
-        art: '<art url>',
+        art: Fatigue,
         type: 'affliction',
         energy: 1,
         exhaust: true,
@@ -29,7 +34,7 @@ export const afflictionCards = [
     },{
         name: 'Bleed',
         requiredHero: 'a',
-        art: '<art url>',
+        art: Bleed,
         type: 'affliction',
         energy: 0,
         exhaust: true,

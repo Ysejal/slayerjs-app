@@ -44,7 +44,7 @@ const HeroSelection = () => {
           onClick={() => onCardClick("sword")}
           className={styles.heroContainer}
         >
-          <div className={styles.heroTitle}> Sword Class </div>
+          <div className={styles.heroTitle}> Siegfried </div>
           <div className={styles.heroImg}></div>
         </div>
 
@@ -52,7 +52,7 @@ const HeroSelection = () => {
           onClick={() => onCardClick("staff")}
           className={styles.heroContainer}
         >
-          <div className={styles.heroTitle}> Staff Class </div>
+          <div className={styles.heroTitle}> Brunehilde </div>
           <div className={styles.staffImg}></div>
         </div>
 
@@ -60,7 +60,7 @@ const HeroSelection = () => {
           onClick={() => onCardClick("shield")}
           className={styles.heroContainer}
         >
-          <div className={styles.heroTitle}> Shield Class </div>
+          <div className={styles.heroTitle}> Owl </div>
           <div className={styles.shieldImg}></div>
         </div>
       </div>

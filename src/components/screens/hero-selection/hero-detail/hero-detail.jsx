@@ -10,16 +10,16 @@ const HeroDetail = () => {
 
       <div className={styles.menuContainer}>
         <div className={styles.heroContainer}>
-          <div className={styles.heroTitle}> sword </div>
+          <div className={styles.heroTitle}> Siegfried </div>
           <div className={styles.heroImg}></div>
         </div>
         <div className={styles.heroContainer}>
-          <div className={styles.heroTitle}> staff </div>
+          <div className={styles.heroTitle}> Brunehilde </div>
           <div className={styles.staffImg}></div>
         </div>
 
         <div className={styles.heroContainer}>
-          <div className={styles.heroTitle}> shield </div>
+          <div className={styles.heroTitle}> Owl </div>
           <div className={styles.shieldImg}></div>
         </div>
       </div>
